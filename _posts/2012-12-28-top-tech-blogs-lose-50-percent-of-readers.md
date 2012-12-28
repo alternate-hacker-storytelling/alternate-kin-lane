@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top Technology Blogs Lose 50 Perecent of Readers Due to Innacurate Reporting
+title: Top Technology Blogs Lose 50 Percent of Readers Due to Innacurate Reporting
 ---
 {% include JB/setup %}
 
