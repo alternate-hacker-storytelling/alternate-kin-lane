@@ -1,0 +1,66 @@
+</div><!-- /.post -->
+
+            </div><!-- /#main -->
+
+            <div id="sidebar">                          
+                
+                 <div class="widget widget_recent_entries">  
+                 
+                     <p align="center"><a href="http://apievangelist.com/network.html"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/network/API-Evangelist-Network.png" width="215" /></a></p>
+                    
+                 </div> 
+
+                <div class="widget widget_recent_entries">  
+                <h3>Latest Blog Posts</h3>
+                <ul>                
+                
+                    {% for post in site.posts limit:10 %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>    
+                    {% endfor %}   
+                                
+                 </ul>
+                </div>                                               
+                           
+            </div>
+
+        </div><!-- /#main-sidebar-container -->         
+
+    </div><!-- /#content -->
+
+    <div id="footer" class="col-full">
+
+        <div id="copyright" class="col-left">
+            <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>        
+        </div>
+
+        <div id="credit" class="col-right">
+    
+            <p><a href="http://kinlane.com/about/">About</a></p>    
+            <p>|</p>
+            <p><a href="http://theapistack.com">API Stack</a></p>   
+            <p>|</p>
+            <p><a href="http://apievangelist.com">API Evangelist</a></p>        
+            <p>|</p>
+            <p><a href="http://apivoice.com">API Voice</a></p>
+            <p>|</p>
+            <p><a href="http://kinlane.com/contact/">Contact</a></p>                
+        
+        </div>
+
+    </div><!-- /#footer  -->
+
+</div><!-- /#wrapper -->                  
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1119465-73']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
