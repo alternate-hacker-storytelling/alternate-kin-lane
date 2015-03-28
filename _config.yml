@@ -1,23 +1,22 @@
-title : API Evangelist
-
-safe: true
-lsi: false
-pygments: true
-auto: true
-
-source: api-evangelist
-destination: api-evangelist
+title:        {"Alternate Kin Lane"}
+url:          http://alternate.kinlane.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 10
+paginate: 50
 paginate_path: "/blog/page:num"
 
-production_url : http://design.apievangelist.com
+production_url : http://alternate.kinlane.com
 
-BASE_PATH : http://design.apievangelist.com
+BASE_PATH : http://alternate.kinlane.com
 
-archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
