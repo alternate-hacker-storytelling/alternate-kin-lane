@@ -1,2 +1,2 @@
 # Alternate Kin Lane
-this is the alternate reality to the real kinlane.com
+This is my alternate universe for Kin Lane, visit http://alternate.kinlane.com/ for the stories.
