@@ -1,16 +1,33 @@
-title:        {"Alternate Kin Lane"}
+title:        Alternate Kin Lane
+description:  Where I put my general fictional writing.
 url:          http://alternate.kinlane.com
+
 version:      1.1.1
+
 author:
   name:       'Kin Lane'
   email:      'info@apievangelist.com'
 markdown:     kramdown
+permalink:    pretty
+pygments:     true
+highlighter:  rouge
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 50
+paginate: 20
 paginate_path: "/blog/page:num"
 
 categories_path : /categories.html
 tags_path : /tags.html
+
+production_url : http://alternate.kinlane.com
+
+image : https://avatars3.githubusercontent.com/u/16858704?v=3&s=200
+imagesecure : https://avatars3.githubusercontent.com/u/16858704?v=3&s=200
+
+# Footer
+footer_title: Kin Lane
+footer_link: http://kinlane.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
