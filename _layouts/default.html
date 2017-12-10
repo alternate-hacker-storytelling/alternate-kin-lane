@@ -9,7 +9,6 @@
       <div class="masthead-inner" align="center">
 
 		  <h2 style="font-size: 18px;">{"Alternate Kin Lane"}</h2>
-      <a href="http://alternate.kinlane.com" target="_blank" id="feature_project_link"><img id="feature_project_image" src="http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png" width="50%" style="border: 1px solid #FFF;" title="API Guides" /></a>
 
       <div class="colophon">
         <ul class="colophon-links">
@@ -41,14 +40,9 @@
 
       {{ content }}
 
-      <!-- Footer1 -->
-      <p align="center"><a href="{{ site.url }}" target="_blank" id="footer_project_link"><img id="footer_project_image" src="{{ site.footer_image_source }}" width="{{ site.footer_image_width }}%" title="{{ site.footer_title }}" class="fbanner" /></a></p><br />
-
       <div class="footer">
         <ul>
-          <li><a href="http://apievangelist.com/">API Evangelist</a></li>
           <li><a href="http://kinlane.com/">About Kin Lane</a></li>
-          <li><a href="http://apievangelist.com/branding-guidelines/">Branding Guidelines</a></li>
           <li><a href="http://apievangelist.com/contact/">Contact</a></li>
         </ul>
       </div>
@@ -63,66 +57,6 @@
 
       ga('create', 'UA-1119465-73', 'auto');
       ga('send', 'pageview');
-
-    </script>
-
-    <script type="text/javascript">
-
-        // project view log
-  	   $url = "http://project.api.kinlane.com/project/view/";
-  	   $vlog = $.post($url, function() {});
-
-        // List Sponsors
-        function listSponsors()
-            {
-            $.getJSON('https://s3.amazonaws.com/kinlane-productions/json/sponsors.json', function(data) {
-                $.each(data['sponsors'], function(key, val) {
-                var template = $('#parterListingTemplate').html();
-                var html = Mustache.to_html(template, val);
-                $('#partnerListingContainer').append(html);
-                });
-            });
-        	}
-        listSponsors();
-
-        // Feature Projects
-        function featureProjects()
-            {
-            $get_feature_project_url = "http://project.api.kinlane.com/project/feature/";
-          	$.ajax({
-          	  url: $get_feature_project_url,
-          	  type:"GET",
-          	  success:function(data) {
-                	$feature_title = data['feature_title'];
-                  $feature_image = data['feature_image'];
-                  $feature_url = data['feature_url'];
-                  $("#feature_project_link").attr("href", $feature_url);
-                  $("#feature_project_image").attr("src", $feature_image);
-                  $("#feature_project_image").attr("title", $feature_title);
-              	}
-          	});
-            }
-        featureProjects();
-
-        // Footer Projects
-        function footerProjects()
-            {
-            $get_footer_project_url = "http://project.api.kinlane.com/project/footer/";
-
-            $.ajax({
-              url: $get_footer_project_url,
-              type:"GET",
-              success:function(data) {
-                  $footer_title = data['footer_title'];
-                  $footer_image = data['footer_image'];
-                  $footer_url = data['footer_url'];
-                  $("#footer_project_link").attr("href", $footer_url);
-                  $("#footer_project_image").attr("src", $footer_image);
-                  $("#footer_project_image").attr("title", $footer_title);
-                }
-              });
-            }
-        footerProjects();
 
     </script>
 
