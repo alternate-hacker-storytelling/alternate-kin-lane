@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-	
+
   {% for post in paginator.posts %}
   <div class="post">
     <h1>
@@ -14,17 +14,8 @@ layout: default
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-    
-	<br /><br />
-	<!-- 3scale -->
-	<p align="center">
-	    <a href="http://bit.ly/13esk6Q" target="_blank" title="Empowered By 3Scale">
-	        <img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png" width="45%" style="padding-bottom: 15px;" />
-	    </a>        
-	</p>
-	<!-- 3scale -->        
-    
+    {{ post.content }}     
+
   </div>
   {% endfor %}
 </div>
