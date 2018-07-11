@@ -4,7 +4,7 @@ layout: post
 title: 'Elon Musk Solves The Water Crisis In Flint Michigan In One Month'
 date: 2018-07-11T09:00:00.000Z
 tags:
-- Alternate Kin Lane
+  - Alternate Kin Lane
 image: 'https://s3.amazonaws.com/kinlane-productions/alternate-kin-lane/elon-musk-water.jpg'
 ---
 <p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" /></p>It has been one month since Elon Musk vowed to go into Flint, Michigan and solve the water crisis once and for all. The tech billionaire said he had enough when it came to the community not having access to clean water. The city's water criss first started in 2014 when the drinking water source for the city was changed from Lake Huron and the Detroit River to the cheaper Flint River--due to insufficient water treatment, lead leached from the lead water pipes into the drinking water, exposing over 100,000 residents. After four years of inaction at all levels of government Elon Musk vowed to fix the problem once and for all.
