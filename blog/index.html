@@ -1,39 +1,19 @@
 ---
 layout: default
 ---
-
+<!-- The main content area -->
 <div class="posts">
+  <div class="grid-xlarge">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1>
-      <a href="{{ site.production_url }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+      {% for post in paginator.posts %}
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+        <!-- The tag below includes the markup for each post - partials/post-card.html -->
+        {% include post-card.html %}
 
-    {{ post.content }}     
-
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
-</div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a href="/blog/page{{paginator.next_page}}" class="older">Older</a>
-  {% else %}
-    <span class="next">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a href="/" class="newer">Newer</a>
-    {% else %}
-      <a href="/blog/page{{paginator.previous_page}}" class="newer">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="previous">Newer</span>
-  {% endif %}
+  {% include pagination.html %}
 </div>

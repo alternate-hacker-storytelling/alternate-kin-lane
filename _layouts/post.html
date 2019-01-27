@@ -1,48 +1,77 @@
 ---
 layout: default
 ---
-
 <div class="post">
-  <h1>{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post__header section-padding--double">
+      <div class="grid-small">
+        <h2 itemprop="name headline">{{ page.title }}</h2>
+
+        <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+      </div>
+    </div>
+
+    {% if page.image %}
+      <div class="post__img">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="post__content section-padding">
+      <div class="grid">
+        <div id="markdown" itemprop="articleBody">
+          {{content}}
+        </div>
+      </div>
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    {% if page.author %}
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid-small">
+          {% for author in site.author %}
+            <span class="post__author">Posted by {% if author["name"] == page.author and author["url"] %}<a href="{{ author['url'] }}" title="More By {{ page.author }}">{% endif %}{{ page.author }}{% if author["name"] == page.author and author["url"] %}</a>{% endif %}</span>
+            {% if author["name"] == page.author %}
+              <p class="post__bio">{{ author["bio"] }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+  </article>
 </div>
 
-<table cellpadding="5" cellspacing="5" align="center" border="0" style="border-bottom: 0px; padding-bottom: 10px;">
-	<tr>
-		<td align="center">
-			<a href="http://twitter.com/home?status={{ page.title }} #DesignFiction - {{ site.production_url }}{{ page.url }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/twitter.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="http://www.facebook.com/share.php?u={{ site.production_url }}{{ page.url }}&title={{ site.production_url }}{{ page.title }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/facebook.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url }}&title={{ page.title }}&source=alternate.kinlane.com" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/linkedin.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/google-plus.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="https://www.tumblr.com/share/link?url={{ site.production_url }}{{ page.url }}&name={{ site.production_url }}{{ page.title }}&description={{ page.content | strip_html | truncatewords: 150 }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/tumblr.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="http://www.reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ site.production_url }}{{ page.title }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/reddit.png" width="25" /></a>
-		</td>
-		<td align="center">
-			<a href="http://news.ycombinator.com/submitlink?u={{ site.production_url }}{{ page.url }}&t={{ site.production_url }}{{ page.title }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/hackernews.jpeg" width="25" /></a>
-		</td>
-	</tr>
-</table>
-
-<div class="pagination">
-	{% if page.previous %}
-	   	<a href="{{ site.production_url }}{{ page.previous.url }}" class="older">Older</a>
-	{% else %}
-		<a href="/" class="older">Older</a>
-	{% endif %}
-	  {% if page.next %}
-	    <a href="{{ site.production_url }}{{ page.next.url }}" class="newer">Newer</a>
-	  {% else %}
-	    <span class="next">Newer</span>
-	  {% endif %}
-</div>
+<!-- Links to Previous/Next posts -->
+{% assign relatedTag = page.tags | first %}
+{% if relatedTag %}
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+        {% for post in site.tags[relatedTag] limit: 3 %}
+          <article class="related__post">
+            <a class="related__link" href="{{ post.url | absolute_url }}">
+              {% if post.image %}
+                <figure class="related__img">
+                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </figure>
+              {% endif %}
+              <div>
+                <h2 class="related__text">{{ post.title }}</h2>
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

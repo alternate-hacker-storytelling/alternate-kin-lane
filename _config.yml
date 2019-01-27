@@ -1,33 +1,46 @@
-title:        Alternate Kin Lane
-description:  Where I put my general fictional writing.
-url:          http://alternate.kinlane.com
+# Site/SEO settings
+email: info@kinlane.com
+baseurl: http://alternate.kinlane.com
+paginate: 12
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
+google_analytics:
 
-version:      1.1.1
+name: Alternate Kin Lane
+title: Alternate Kin Lane - Nothing Here Is Real (aka Fiction)
+description: >
+  My fictional storytelling platform.
+url: http://kinlane.com
+twitter_username: kinlane
+default_img: /assets/images/seo.jpg
+social:
+  - name: twitter
+    url: https://twitter.com/kinlane
+  - name: instagram
+    url: https://www.instagram.com/kinlane/
+  - name: linkedin
+    url: https://www.linkedin.com/in/kinlane/
+  - name: github
+    url: https://github.com/kinlane
 
+# Author settings
 author:
-  name:       'Kin Lane'
-  email:      'info@apievangelist.com'
-markdown:     kramdown
-permalink:    pretty
-pygments:     true
-highlighter:  rouge
+  - name: Kin Lane
+    bio: I am a writer, photographer, storyteller, and recovering technologist.
+    url: http://kinlane.com
 
-permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-
-paginate: 20
-paginate_path: "/blog/page:num"
-
-categories_path : /categories.html
-tags_path : /tags.html
-
-production_url : http://alternate.kinlane.com
-
-image : https://avatars3.githubusercontent.com/u/16858704?v=3&s=200
-imagesecure : https://avatars3.githubusercontent.com/u/16858704?v=3&s=200
-
-# Footer
-footer_title: Kin Lane
-footer_link: http://kinlane.com
-footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
-footer_image_width: 60
+# Build settings
+markdown: kramdown
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - node_modules
+  - .DS_Store
+  - barber.jpg
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - README.md
