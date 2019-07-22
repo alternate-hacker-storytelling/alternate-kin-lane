@@ -7,7 +7,6 @@ tags:
   - Alternate Kin Lane
 image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/sand-hand-sand-hand-blue-circuit.jpg
 ---
-<p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" /></p>
 We never quite fully understood our physical self before we set out defining our digital self. There appears to be a lot more to our physical self than what we knew, and with 60% of the population suffering from what has been dubbed, “Marty McFly Syndrome”, we are unsure if we will ever actually fully be able to reverse the clock. The syndrome has nothing to do with time travel, or changing the course of time (maybe), it has more do with the role that being seen by others plays into the physical definition of who we truly are.
 
 In 2024, most people work from home. Retail has been almost completely eliminated, and home delivery is the norm. Beginning in 2023, people began flickering. Physically flickering. Those who experienced these symptoms soon began disappearing. Not a lot. Just a little. A faint translucence and flickering after about a year of progression. Researchers quickly associated this illness with staying at home too much. Many of the people suffering from the condition had not left home for weeks, months, and some refused to go outside at all, having been behind closed doors for over 5 years. Apparently there is more to the self than just what you see, it also matters what others see.

@@ -1,13 +1,13 @@
 ---
 published: true
 layout: post
-title: Preemptive Executions Are Just An Honest View Of What Is To Come
-date: 2018-07-16T09:00:00.000Z
+title: The Rogue Tech Employee Training Academy
+date: 2018-07-22T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/soldier-kneeling-26304845730-d4e495e25f-o-yellow-collage.jpg
+image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/art-museum-art-museum-copper-circuit.jpg
 ---
-<p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" /></p>Not everyone has the guts to be honest about what the future will hold. Not everyone in this country has a bright future, and some are better off burning out instead of facing the dark future that is in store for them. The individuals who are attracted to drugs at this moment in time are the same individuals who will cost society money down the road when it comes to prison, healthcare, other services. Preemptive, phased in, slow build executions are the most logical, and efficient way to deal with the growing cost of non-compliant citizens.
+Not everyone has the guts to be honest about what the future will hold. Not everyone in this country has a bright future, and some are better off burning out instead of facing the dark future that is in store for them. The individuals who are attracted to drugs at this moment in time are the same individuals who will cost society money down the road when it comes to prison, healthcare, other services. Preemptive, phased in, slow build executions are the most logical, and efficient way to deal with the growing cost of non-compliant citizens.
 
 It is cheaper to produce Fentanyl, sell it on the underground, and address the underbelly of our society, than it is to clean up the aftermath and realize the full cost of these individuals life-long burden to our society. We consider ourselves the honorable, early stage executioners carrying out what society only will always put off. Doing the hard work to truly make our country a better place. Unfortunately, the country still views what we do as illegal, and immoral, forcing us to operate in the shadows. However, we feel strongly that we will be viewed as heroes when the time is right, after we've successfully cured our world of the illness and weakness that exists at the moment.
 

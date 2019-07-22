@@ -5,9 +5,6 @@ tags:
 - Alternate API Evangelist
 image: https://s3.amazonaws.com/kinlane-productions/algorotoscope/cyber-api-description-wars/api-specification-wars.png
 ---
-
-<p><img src="https://s3.amazonaws.com/kinlane-productions/algorotoscope/cyber-api-description-wars/api-specification-wars.png" align="right" width="40%" /></p>
-
 APIs are how cyber warfare is waged. APIs are how business, government, institutions, and individuals are being targeted, infiltrated, and indoctrinated as part of the millions of cyber war skirmishes occurring around the globe in 2017. These are some of my stories from the last seven years on the front lines of this war, documenting how these cyber militias are planning, mapping out, communicating, and executing their attacks in this new form of warfare.
 
 I was sent to the front line of the API description wars in July 2010. Battles were heating up and there was a need for someone to be covering the front lines, documenting how this new type of warfare was being waged. Much like computer origins in World War II, where encryption and compute capacity were central to planning, communicating, executing attacks, APIs are how the submarines of the Internet age that are attacking shipping convoys, and how the looting of gold, art, and other riches are being dispatched--a distributed Enigma for a new type of warfare that was born out of the technology of the last world war, but retooled for a new century of warfare.
