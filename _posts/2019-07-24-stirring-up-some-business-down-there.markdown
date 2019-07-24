@@ -1,0 +1,18 @@
+---
+published: true
+layout: post
+title: Stirring Up Some Business Down There
+date: 2019-07-24T09:00:00.000Z
+tags:
+  - Alternate Kin Lane
+image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/border-crossing-bordercrossing-atari-asteroids.png
+---
+No baby. I’m just the carrier, but every time I do the pick up, I do end up having to spend a whole afternoon with the blowhard. Telling me how much money they are raking in operating the border camps, and all you have to do is leak a story to the press about how crowded things, and you can ask for more money to increase capacity. This administrations stance on immigration has been a huge boost to the private detention center industry, but more importantly the underground market which I’m cashing in on. It is my job to just make sure the payments to stir the pot down south are distributed to the four separate gangs who do the work riling everyone up.
+
+At least today we ate at a decent restaurant. He must really be doing well, cause I know what a tight wad he is. He’s also happens to be my uncle, so I’ve known him a while. Anyways, I’ll be taking about $620K south this time, distributing it equally amongst the gangs. They get to decide what they want to do, and as along as we seem some ROI, there will be another payment next month. I’m guessing these guys would do it for free, but they see an opportunity for making a buck, while also cultivating a get out of jail free card when it comes to business they do within the United States. My role is simple. I make 25K per drop — not a bad take for days worth of work.
+
+My uncle works for SafeRefuge, who has approximately 37% of the migrant detention center business—a share that has grown 280% this year alone. He’s a nobody really, but that is what makes him a useful idiot, and I guess I am too, by association. I don’t give a shit. It is cold hard cash. All I gotta do is get the money to Ciudad de Guatemala and the gangs do the rest. They meet me at the same hotel each time, I split the cash four ways, and then we fucking party! It is always a completely out of control time, which I barely remember. Leaving me thankful I never bring more than 1K with me, because I always wake up broke as shit. It is worth it.
+
+I don’t know how long this business will keep up. Regardless, I’m guessing it will keep going through at least 2020, and I’m sure it will take longer to stop the train one it has been going for a couple of years. The amount of infrastructure already in place, and the amount of money flowing, it won’t be something you can stop overnight. However it plays out, I’m guessing I’ll walk away with just shy of 1M in cash. Do I feel guilty? Hell no! This is America dammit, if you can get away with locking people up, and getting paid for it—do it!! Just don’t be stupid enough to get locked up, and you’ll be fine. Survival of the fittest baby! The American way!
+
+Ok, well you know the routine. If I don’t make it back, you share all my letters with the papers, and you know where all the cash is. You will want to wait until things blow over before heading out there, as folks might be watching you. Ahhh shit, you won’t need to, I’ll see you on Monday. You never even knew what was up until I told you, and I’ve been getting away with it for almost six months now, so don’t sweat it. It just helps to have a plan. If you have a plan, shit never goes wrong. And remember, you had nothing to do with any of this, I’m only telling you because you got suspicious. If anyone goes down for this, it will be my asshole uncle, it is why he was chosen for the job.
