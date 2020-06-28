@@ -5,7 +5,7 @@ title: The Facial Recognition Network Has Exposed That There Are Only So Many So
 date: 2020-06-28T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: v
+image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/blue-circuit-face-mosaic.jpg
 ---
 At about 60% global coverage for facial recognition network is where we began to suspect there was something else going on. However, it was until about 90% global coverage were we able to verify that some people are in fact the same people, cloned souls, or however you want to put it. It began with an increase in the number of mistaken identity cases, and then it became visible at scale once there was a global incarceration network, and we began sending facial recognition matches to the same facility.
 
