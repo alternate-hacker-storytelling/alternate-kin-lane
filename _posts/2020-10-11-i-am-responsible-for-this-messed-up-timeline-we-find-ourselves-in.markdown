@@ -5,7 +5,7 @@ title: I Am Responsible For This Messed Up Timeline We Find Ourselves In
 date: 2020-10-11T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/blue-circuit-face-mosaic.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/blue-circuit-face-mosaic.jpg
 ---
 I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it started kicking in. The right mixture of time and bong hits passed and we slipped into this new timeline barely noticing the world had shifted around us.
 

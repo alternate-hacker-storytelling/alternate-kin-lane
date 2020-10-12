@@ -6,7 +6,7 @@ date: 2018-07-16T09:00:00.000Z
 tags:
   - Alternate Kin Lane
 image: >-
-  http://kinlane-productions.s3.amazonaws.com/algorotoscope/builder/filtered/54_32_800_500_0_max_0_1_-5.jpg
+  http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/54_32_800_500_0_max_0_1_-5.jpg
 ---
 Not everyone has the guts to be honest about what the future will hold. Not everyone in this country has a bright future, and some are better off burning out instead of facing the dark future that is in store for them. The individuals who are attracted to drugs at this moment in time are the same individuals who will cost society money down the road when it comes to prison, healthcare, other services. Preemptive, phased in, slow build executions are the most logical, and efficient way to deal with the growing cost of non-compliant citizens.
 

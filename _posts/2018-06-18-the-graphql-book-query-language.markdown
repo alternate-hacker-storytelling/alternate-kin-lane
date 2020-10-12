@@ -5,7 +5,7 @@ title: The GraphQL Book Query Language (GQLBQL)
 date: 2018-06-18T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: 'https://s3.amazonaws.com/kinlane-productions/graphql/graphql-book.png'
+image: 'https://s3.amazonaws.com/kinlane-productions2/graphql/graphql-book.png'
 ---
 GQBQL is the new reading! Are you tired of hour after hour, and day after day of having to read books? All that wasted time reading words. Well, the GraphQL Book Query Language (GQLBQL) is for you. It is the fastest way to distill down any book and get exactly what you want without having to waste your time reading it. GQLBQL give you single URL that allows you to submit a query and get the version of the book you want, returning only the words, sentences, and paragraphs you desire, saving you time and energy.
 

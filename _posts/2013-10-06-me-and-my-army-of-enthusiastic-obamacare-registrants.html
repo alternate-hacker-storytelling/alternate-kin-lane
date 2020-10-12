@@ -3,9 +3,9 @@ layout: post
 title: 'Me And My Army Of Enthusiastic ObamaCare Registrants #DesignFiction'
 source: http://alternate.kinlane.com/2013/10/06/me-and-my-army-of-enthusiastic-obamacare-registrants/
 domain: alternate.kinlane.com
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/sheep.JPG
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/blog/sheep.JPG
 ---
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/alternate-kin-lane/sheep.JPG" alt="" width="200" align="right" /></p>
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions2/alternate-kin-lane/sheep.JPG" alt="" width="200" align="right" /></p>
 <p>I'm sitting back in the bahamas enjoying the fruits of my labor, with $1M in my bank account, dedicated Internet to my bungalow and as much rum as I can drink. After 7 months of work, I'm enjoying the fruits of my labor to help make sure the launch of ObamaCare is a wild failure.</p>
 <p>I was approached back in March, by a gentleman who will remain un-named, who I will refer to as Marco. Marco approached me with $500K and asked me if I could successfully reverse engineer the upcoming Healthcare.gov implementation and identify the weakest link in the architecture, and make sure on delivery date, this link was exploited. Once successful he said he would wire me another $500K.</p>
 <p>It sounded like a worthy challenge, and just like <a href="http://www.nytimes.com/2013/10/06/us/a-federal-budget-crisis-months-in-the-planning.html?pagewanted=all&amp;_r=0">the money men behind the operation</a> I wanted that socialist bastard Obama and his communist medicine program to fail, fail, fail fail. Goddam Muslim!</p>
@@ -15,7 +15,7 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/shee
 <p>I was prepared, with my silent army waiting in the shadows, and once Healthcare.gov publicly announced I got to work identifying the best parts of the registration process to target. While I found a myriad of poorly engineered bottlenecks, there was one clear target:</p>
 <p style="padding-left: 30px;"><em>https://www.healthcare.gov/ee-rest/ffe/en_US/MyAccountEIDMUnsecuredIntegration/createLiteEIDMAccount</em></p>
 <p>This was the initial point where every user was required to register, and the system behind was a bloated piece of Java shit that would gladly support me in the overloading of its operations. I was sure that there was nothing elastic about this system, and every user needed to interact with it before they could proceed.</p>
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/alternate-kin-lane/beachvacation.jpg" alt="" width="275" align="right" /></p>
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions2/alternate-kin-lane/beachvacation.jpg" alt="" width="275" align="right" /></p>
 <p>I got to work orchestrating my army of registrants to login, attempt to register from IP addresses across the country, spread out at the peak periods of Internet usage, and made sure they pushed refresh, and retried as much as possible. My army of enthusiastic registrants would look like any of the other sheep lining up to the socialist healthcare feeder.</p>
 <p>While this target was definitely the anchor in my strategy, I wanted to make sure other secondary targets were also overloaded in different ways, from various locations. There were a number of JavaScript and 3rd party resources used in the registration flow, and I made sure these were adequately slowed, adding to the overall bloat of the ObamaCare registration flow.</p>
 <p>All of these attacks were carefully scripted, timed and tested where for the last week I've been able to sit back in my bungalow , enjoying my rum and the fruits of my labor. I'm pretty impressed with myself, and I outdid myself this time. I know from talking with Marco, there were other plans in the works beyond mine, but I only needed to know about my role, and nothing else--it is safer that way.</p>

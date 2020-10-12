@@ -5,7 +5,7 @@ title: Stirring Up Some Business Down There
 date: 2019-07-24T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/border-crossing-bordercrossing-atari-asteroids.png
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/border-crossing-bordercrossing-atari-asteroids.png
 ---
 No baby. I’m just the carrier, but every time I do the pick up, I do end up having to spend a whole afternoon with the blowhard. Telling me how much money they are raking in operating the border camps, and all you have to do is leak a story to the press about how crowded things, and you can ask for more money to increase capacity. This administrations stance on immigration has been a huge boost to the private detention center industry, but more importantly the underground market which I’m cashing in on. It is my job to just make sure the payments to stir the pot down south are distributed to the four separate gangs who do the work riling everyone up.
 

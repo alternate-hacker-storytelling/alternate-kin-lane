@@ -5,7 +5,7 @@ title: We Outsource All Of Our Defect Development
 date: 2019-07-23T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/udnie-IMG_6965.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_6965.jpg
 ---
 We have 3rd party development shops that deliver our defective solutions. When we identify an opportunity for “accidentally” grabbing audio, video, or other data, we make sure a 3rd party development shop has their finger prints all over it. There are plenty of web, mobile, device, and network development shops out there who are hungry for contracts, which are also easily infiltrated by seemingly low-level staff ho can assist us in ensuring that the defects we are looking for exist within software.
 

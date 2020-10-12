@@ -5,7 +5,7 @@ title: Autocompleting The Meaning Behind My Messages
 date: 2020-02-29T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg
 ---
 It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us all. She dismissed my diagnosis and remained confident that there was something malicious going on, and she would get to the bottom of it. I didn’t give it much more thought until a couple of weeks later when I had something similar occur to me at work.
 

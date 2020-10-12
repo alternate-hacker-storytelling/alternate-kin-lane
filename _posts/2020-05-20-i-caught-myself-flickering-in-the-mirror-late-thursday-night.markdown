@@ -5,7 +5,7 @@ title: I Caught Myself Flickering in the Mirror Late Thursday Night
 date: 2020-06-20T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions/algorotoscope-master/copper-circuit-statue-green-eyes.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/copper-circuit-statue-green-eyes.jpg
 ---
 I spend a lot of time working late. 11:00 PM to 3:00 AM is prime coding time. Even after working a 10 hour day at my job, I am usually working 4-6 hours late into the night on any one of my side projects. Last week my girlfriend had bought a new mirror and put it by the bathroom door in our bedroom, perfectly placed to reflect myself back to me as a sat at my bedroom office desk. I regularly noticed myself out of the corner of my eye, but I hadn’t really given the mirror much thought. A couple of times I would stop and acknowledge how old and fat I am getting, but it was late into the night this last Thursday, as I approached 3:00 AM and was just about to hit save on some fresh code, I noticed a faint flicker in the mirror. I skipped a beat. My reflection had flickered, like the mirror was a television.
 
