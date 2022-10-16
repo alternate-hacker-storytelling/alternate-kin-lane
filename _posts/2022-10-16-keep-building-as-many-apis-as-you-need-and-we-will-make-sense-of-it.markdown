@@ -1,0 +1,20 @@
+---
+published: true
+layout: post
+title: 'Keep Building As Many APIs as You Need and We Will Make Sense of It'
+date: 2022-10-16T09:00:00.000Z
+tags:
+  - APIs
+  - Scale
+  - Enterprise
+  - Growth
+image: christianity-christianity-under-construction-copper-circuit.jpg
+---
+You have 5 times the number of APIs you thought you did after doing the last census. You now have 760K APIs in operation across the enterprise with a rate of new APIs being deployed around 40+ per week. I know that you are feeling like you should put the brakes on this until you get your digital resource sprawl under control, but I am here to be the voice of reason. There are good reasons why you are developing this many APIs. Do not get in the way of teams when it comes to their innovation and forward motion. The last thing you want to do is impose any restrictions on your team's ability to move forward at the speed they need. You need to encourage teams to build as many APIs as they need, for whatever purpose they encounter, and rely on your tooling, expertise, and specialty cross-cutting teams to clean up, optimize, and standardize behind your day to day operations.
+
+Embrace the API sprawl!! Embrace the API chaos!! We will sort it all out for you. The right combination of tooling, algorithms, and skill will make sense of the increasingly sprawling landscape that is your enterprise operations. You can’t afford to slow down! If you pause for even a moment your competition is going to gain an advantage over you that you will never recover from. Just keep building!  Automation will be your savior moving forward, which will be the only way that enterprise organizations are able to keep pace and continue scaling. The digital transformation has led to competitive edges being defined by the sheer volume of digital resources and capabilities you possess. Redundancy in this world doesn’t matter—when it comes to digital transformational accounting, the more the better. So keep building, keep acquiring, and harvesting what you need to get the job done in the moment.
+
+Eventually, your enterprise digital presence will become so vast, so complex, your operations will grind to a halt. This is the goal you see. This isn’t about your success or dominance. This is about choking you out. This is about using your own gears to grind your operations into an ineffective mess of rubble. The only businesses that will survive will be those that can resist operating at scale, and do one thing and do it well. Scale will become the curse. In the future you won’t want to be massive, and the only way we will get there is to burn it all down. You do not have the enterprise discipline to say no, and have grown exponentially for centuries, and now you collapse under your own weight. So, just keep building. Keep saying yes! Throw everything you have at building out the APIs you need in this moment right here, without any consideration for the future. 
+
+I have spent the last 30 years running ahead of you telling the stories you wanted to hear. I have whispered in your ear all along the way. I have told you what you wanted to hear. I’ve long studied how you saw the world and just tailored a message to capture your imagination. This wasn’t about what you needed. This wasn’t about optimization and innovation. This was simply about tangling you up in your own gears, wires, and supply chains. Technology was never the answer. I knew you loved technology so I told stories that positioned APIs as the solution you couldn’t refuse. Despite all evidence that it would fix what was broken with your enterprise operations you kept believing. This wasn’t about convincing you to do what was right. Strangling you out of existence was the only thing that was right. APIs began as a shiny possibility for building connections and relationships and you turned it into something that extracted value from everything and reduced us all to transactions. There was no way this could continue, and we had to use APIs to build you up, then use APIs to choke you out and destroy the machine.
+
