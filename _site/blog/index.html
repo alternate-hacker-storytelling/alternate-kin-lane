@@ -1,2 +1,1292 @@
-<!DOCTYPE html><html lang="en"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Alternate Kin Lane - Nothing Here Is Real (aka Fiction)</title><meta name="description" content="My fictional storytelling platform. "><meta itemprop="name" content="Alternate Kin Lane"><meta itemprop="description" content="My fictional storytelling platform. "><meta itemprop="image" content="http://localhost:4000/http://alternate.kinlane.com/assets/images/seo.jpg"><meta property="og:url" content="http://localhost:4000/http://alternate.kinlane.com/blog/"><meta property="og:type" content="website"><meta property="og:title" content="Alternate Kin Lane - Nothing Here Is Real (aka Fiction)"><meta property="og:site_name" content="Alternate Kin Lane - Nothing Here Is Real (aka Fiction)"><meta property="og:description" content="My fictional storytelling platform. "><meta property="og:image" content="http://localhost:4000/http://alternate.kinlane.com/assets/images/seo.jpg"><meta name="twitter:url" content="http://localhost:4000/http://alternate.kinlane.com/blog/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Alternate Kin Lane - Nothing Here Is Real (aka Fiction)"><meta name="twitter:site" content="Alternate Kin Lane - Nothing Here Is Real (aka Fiction)"><meta name="twitter:description" content="My fictional storytelling platform. "><meta name="twitter:creator" content="@kinlane"><meta property="twitter:image" content="http://localhost:4000/http://alternate.kinlane.com/assets/images/seo.jpg"><link rel="icon" type="image/x-icon" href="http://alternate.kinlane.com/assets/images/favicon.ico"><link rel="stylesheet" href="http://alternate.kinlane.com/assets/css/app.min.css"><link rel="alternate" type="application/rss+xml" title="Alternate Kin Lane - Nothing Here Is Real (aka Fiction)" href="http://alternate.kinlane.com/feed.xml"><link rel="canonical" href="http://alternate.kinlane.com/blog/"></head><body id="home" class="default-layout"><header class="header"> <a class="header__title" href="">Alternate Kin Lane - Nothing Here Is Real (aka Fiction)</a><nav><ul class="header__list"><li><a href="http://alternate.kinlane.com">Stories</a></li><li><a href="http://alternate.kinlane.com/about/">About</a></li></ul></nav></header><main class="💈"><div class="posts"><div class="grid-xlarge"><div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns></div></div></div></main><footer class="footer section-padding"><div class="grid"><div class="footer__container"><ul class="footer__social"><li><a href="https://twitter.com/kinlane" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.instagram.com/kinlane/" target="_blank"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.linkedin.com/in/kinlane/" target="_blank"><i class="fa fa-linkedin"></i></a></li><li><a href="https://github.com/kinlane" target="_blank"><i class="fa fa-github"></i></a></li></ul></div></div></footer><script src="http://alternate.kinlane.com/assets/js/app.min.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Stories | Alternate Kin Lane</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="Stories" />
+<meta name="author" content="Kin Lane" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Fictional storytelling in the cracks of technology." />
+<meta property="og:description" content="Fictional storytelling in the cracks of technology." />
+<link rel="canonical" href="http://localhost:4000/blog/" />
+<meta property="og:url" content="http://localhost:4000/blog/" />
+<meta property="og:site_name" content="Alternate Kin Lane" />
+<link rel="next" href="http://localhost:4000/blog/2/" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png"},"name":"Kin Lane"},"headline":"Stories","author":{"@type":"Person","name":"Kin Lane"},"description":"Fictional storytelling in the cracks of technology.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="Alternate Kin Lane" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+
+  <script src="/assets/js/main.js"></script>
+
   
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stories | Alternate Kin Lane">
+  <meta property="og:site_name" content="Alternate Kin Lane">
+  <meta property="og:description" content="Fictional storytelling in the cracks of technology.">
+  <meta property="og:image"  content="">
+
+  <meta name="twitter:url" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Stories | Alternate Kin Lane">
+  <meta name="twitter:site" content="Alternate Kin Lane">
+  <meta name="twitter:description" content="Fictional storytelling in the cracks of technology.">
+
+  
+  
+  <meta name="twitter:image" content="">
+
+  <script src="/assets/js/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane" width="50"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li class="uk-active"><a href="/blog/" >Stories</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/about/" >About</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search the void" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No results found</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Question?</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container uk-container-xsmall">
+
+        <h1 class="uk-article-title uk-text-center">Stories</h1>
+
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2022/09/24/sentinel-apis/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Sentinel APIs</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2022-09-24T02:00:00-07:00">
+                            
+                            Sep 24, 2022
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-alan-turing-side.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">Like most Internet technologies, APIs began as something intended to help augment us humans, but over time they became something that changed, altered, and forever doomed us as human beings through a million digital cuts to our uniquely human soul. Originally known as application programming interfaces back at the beginning of the century, the technical description was shortened to simply API, but along the way APIs were weaponized to not just augment us, but consume us, and reduce every a...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">I Am Responsible For This Messed Up Timeline We Find Ourselves In</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2020-10-11T02:00:00-07:00">
+                            
+                            Oct 11, 2020
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-eeob-white-house.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it star...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2020/06/28/facial-recognition-has-exposed-that-there-are-only-so-man-souls-to-go-around/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The Facial Recognition Network Has Exposed That There Are Only So Many Souls to Go Around</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2020-06-28T02:00:00-07:00">
+                            
+                            Jun 28, 2020
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/blue-circuit-face-mosaic.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">At about 60% global coverage for facial recognition network is where we began to suspect there was something else going on. However, it was until about 90% global coverage were we able to verify that some people are in fact the same people, cloned souls, or however you want to put it. It began with an increase in the number of mistaken identity cases, and then it became visible at scale once there was a global incarceration network, and we began sending facial recognition matches to the sa...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2020/06/20/i-caught-myself-flickering-in-the-mirror-late-thursday-night/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">I Caught Myself Flickering in the Mirror Late Thursday Night</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2020-06-20T02:00:00-07:00">
+                            
+                            Jun 20, 2020
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/copper-circuit-statue-green-eyes.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">I spend a lot of time working late. 11:00 PM to 3:00 AM is prime coding time. Even after working a 10 hour day at my job, I am usually working 4-6 hours late into the night on any one of my side projects. Last week my girlfriend had bought a new mirror and put it by the bathroom door in our bedroom, perfectly placed to reflect myself back to me as a sat at my bedroom office desk. I regularly noticed myself out of the corner of my eye, but I hadn’t really given the mirror much thought. A co...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2020/02/29/autocompleting-the-meaning-behind-my-messages/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Autocompleting The Meaning Behind My Messages</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2020-02-29T01:00:00-08:00">
+                            
+                            Feb 29, 2020
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us a...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2019/07/24/stirring-up-some-business-down-there/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Stirring Up Some Business Down There</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2019-07-24T02:00:00-07:00">
+                            
+                            Jul 24, 2019
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/border-crossing-bordercrossing-atari-asteroids.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">No baby. I’m just the carrier, but every time I do the pick up, I do end up having to spend a whole afternoon with the blowhard. Telling me how much money they are raking in operating the border camps, and all you have to do is leak a story to the press about how crowded things, and you can ask for more money to increase capacity. This administrations stance on immigration has been a huge boost to the private detention center industry, but more importantly the underground market which I’m ...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2019/07/23/we-outsuorce-all-of-our-defect-development/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">We Outsource All Of Our Defect Development</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2019-07-23T02:00:00-07:00">
+                            
+                            Jul 23, 2019
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/udnie-IMG_6965.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">We have 3rd party development shops that deliver our defective solutions. When we identify an opportunity for “accidentally” grabbing audio, video, or other data, we make sure a 3rd party development shop has their finger prints all over it. There are plenty of web, mobile, device, and network development shops out there who are hungry for contracts, which are also easily infiltrated by seemingly low-level staff ho can assist us in ensuring that the defects we are looking for exist within ...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/07/22/the-rogue-tech-employee-training-academy/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The Rogue Tech Employee Training Academy</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-07-22T02:00:00-07:00">
+                            
+                            Jul 22, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/art-museum-art-museum-copper-circuit.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">Not everyone has the guts to be honest about what the future will hold. Not everyone in this country has a bright future, and some are better off burning out instead of facing the dark future that is in store for them. The individuals who are attracted to drugs at this moment in time are the same individuals who will cost society money down the road when it comes to prison, healthcare, other services. Preemptive, phased in, slow build executions are the most logical, and efficient way to d...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/07/22/marty-mcfly-syndrome-hits-60-percent-of-the-population/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Marty McFly Syndrome Hits 60% Of The Population</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-07-22T02:00:00-07:00">
+                            
+                            Jul 22, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/sand-hand-sand-hand-blue-circuit.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">We never quite fully understood our physical self before we set out defining our digital self. There appears to be a lot more to our physical self than what we knew, and with 60% of the population suffering from what has been dubbed, “Marty McFly Syndrome”, we are unsure if we will ever actually fully be able to reverse the clock. The syndrome has nothing to do with time travel, or changing the course of time (maybe), it has more do with the role that being seen by others plays into the ph...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/07/16/preemptive-executions-are-an-honest-view-of-what-is-to-come/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Preemptive Executions Are Just An Honest View Of What Is To Come</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-07-16T02:00:00-07:00">
+                            
+                            Jul 16, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="http://kinlane-productions2.s3.amazonaws.com/algorotoscope/builder/filtered/54_32_800_500_0_max_0_1_-5.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">Not everyone has the guts to be honest about what the future will hold. Not everyone in this country has a bright future, and some are better off burning out instead of facing the dark future that is in store for them. The individuals who are attracted to drugs at this moment in time are the same individuals who will cost society money down the road when it comes to prison, healthcare, other services. Preemptive, phased in, slow build executions are the most logical, and efficient way to d...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/07/11/elon-musk-solves-flints-water-crisis-in-one-month/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Elon Musk Solves The Water Crisis In Flint Michigan In One Month</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-07-11T02:00:00-07:00">
+                            
+                            Jul 11, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/alternate-kin-lane/elon-musk-water.jpg" width="25%" align="left" style="padding: 10px; margin-top: 15px;">It has been one month since Elon Musk vowed to go into Flint, Michigan and solve the water crisis once and for all. The tech billionaire said he had enough when it came to the community not having access to clean water. The city’s water criss first started in 2014 when the drinking water source for the city was changed from Lake Huron and the Detroit River to the cheaper Flint River–due to insufficient water treatment, lead leached from the lead water pipes into the drinking water, exposin...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/07/08/the-new-corporate-hustle-algorithm/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The New Corporate Hustle Algorithm</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-07-08T02:00:00-07:00">
+                            
+                            Jul 8, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/density/algo_anti_camera_r5.gif" width="25%" align="left" style="padding: 10px; margin-top: 15px;">Dan from IT has released a new version of the corporate hustle application, with a whole new algorithm directing our spontaneous activity throughout the day. This is version 3.0 of the application after our company adopted the Density system across all corporate locations. Pushing back on management putting Density units in every room, hallway, stairwell, and lobby across all 10 of our buildings, tracking the activity and density that exists across our...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2018/06/18/the-graphql-book-query-language/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The GraphQL Book Query Language (GQLBQL)</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-06-18T02:00:00-07:00">
+                            
+                            Jun 18, 2018
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/graphql/graphql-book.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">GQBQL is the new reading! Are you tired of hour after hour, and day after day of having to read books? All that wasted time reading words. Well, the GraphQL Book Query Language (GQLBQL) is for you. It is the fastest way to distill down any book and get exactly what you want without having to waste your time reading it. GQLBQL give you single URL that allows you to submit a query and get the version of the book you want, returning only the words, sentences, and paragraphs you desire, saving...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2017/05/30/seven-years-of-dispatches-from-front-lines-of-api-description-wars/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Seven Years Of Dispatches From Front Lines Of The API Description Wars</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2017-05-30T05:00:00-07:00">
+                            
+                            May 30, 2017
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope/cyber-api-description-wars/api-specification-wars.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">APIs are how cyber warfare is waged. APIs are how business, government, institutions, and individuals are being targeted, infiltrated, and indoctrinated as part of the millions of cyber war skirmishes occurring around the globe in 2017. These are some of my stories from the last seven years on the front lines of this war, documenting how these cyber militias are planning, mapping out, communicating, and executing their attacks in this new form of warfare.
+
+
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2017/03/06/grand-theft-uber/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Grand Theft Uber</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2017-03-06T00:00:00-08:00">
+                            
+                            Mar 6, 2017
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/grand_theft_uber.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+We launched new game this week called Grand Theft Uber, where you get to drive&nbsp;around over 25 cities across the globe, playing Uber in a variety of different game modes. When you first download the game you are in the default game level, and it increases in complexity as you ascend (or descend) into different levels, de...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2017/01/11/patent-storytelling-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Patent Storytelling #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2017-01-11T00:00:00-08:00">
+                            
+                            Jan 11, 2017
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-storytelling.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">I am a patent storyteller. I craft and file patents that are in the speculative, moonshot, design fiction, science fiction, and storyteller categories. These patents aren't mean to describe an actual product line. They are purely intended to boost the profile of our client company's patent catalog and get people talking about them.
+Back in 2005, I ...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/25/racial-bias-in-algorithm-color-blind-facial-recognition-targets-white-minority-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Racial Bias In Algorithm &amp; Color Blind Facial Recognition Targets White Minority #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-25T00:00:00-07:00">
+                            
+                            Oct 25, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-cross-hairs.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+Algorithmic policing using facial recognition technology has been in place in 98% of police departments in the United States for almost 11 years now. The full report about the last decade has become available, and the results have clearly been devastating to the white population. Due to arrest decisions being made 100% algorithmically, and t...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/24/the-money-is-in-selling-access-to-unsecured-devices-not-the-devices-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The Money Is In Selling Access To Unsecured Devices Not The Devices #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-24T00:00:00-07:00">
+                            
+                            Oct 24, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-money-fire.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+I am telling you that all you need is for each of your devices to respond to your presale validation requests and you can sell it many times over, to a variety of cybersecurity players. You can sell to the Chinese, to the Russian, a variety of rogue actors, and even to some researchers and news outlets. The money in all of this isn't in the m...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/17/the-invasion-began-in-the-19th-century-with-early-radio-waves-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">The Invasion Began In The 19th Century With Early Radio Waves #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-17T00:00:00-07:00">
+                            
+                            Oct 17, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-signals.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+From what we now know, the invasion began in the early 20th century, with early signals sent to our invaders via experimentation in radio waves in the mid 19th century. Early forms of communication did not draw their attention like the signals we sent by radio, television, telephone, the Internet, and cellular technology. Each wave of technology...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/14/fees-for-iot-device-security-violations-are-automatic-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Fees For IoT Device Security Violations Are Automatic #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-14T00:00:00-07:00">
+                            
+                            Oct 14, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-fees.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+When you purchase your security camera, router, printer, or other potentially Internet-connected device and plug it in on your network, you will have to complete its activation. When you purchased your IoT device, this was just the first half of the activation sequence, once you get connected to your network, you will need to execute the second hal...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/13/we-offer-a-redundant-proxy-for-the-facebook-live-api-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">We Offer A Redundant Proxy For The Facebook Live API #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-13T00:00:00-07:00">
+                            
+                            Oct 13, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-video-camera.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+Use our API proxy for your mobile video applications instead of directly connecting to Facebook Live API. The proxy ensures your video is uploaded to Facebook Live, as well as up to 10 other locations, depending on how important syndication is to you. With the numerous claims against Facebook regarding censorship of videos we know we can't ...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/12/complete-rf-scanning-coverage-where-you-need-using-drones-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Complete RF Scanning Coverage Where You Need Using Drones #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-12T00:00:00-07:00">
+                            
+                            Oct 12, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="http://kinlane-productions2.s3.amazonaws.com/api_evangelist_site/blog/dji_phantom_4_with_crfs_rf_signal_node.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+Our fleets of drone deployed radio frequency (RF) spectrum scanners can be deployed as a cohesive mesh, producing 100% scanning coverage wherever you need them--within an hour. Each drone logs everything. All signals are recorded and synced with the cloud in real-time, where our systems get to work iden...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/11/waze-for-drones-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">Waze For Drones #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-11T00:00:00-07:00">
+                            
+                            Oct 11, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-drone-obstacles.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+We are the Waze for drones. Instead of routing cars and trucks we provide routing options for the commercial drone industry. Drone routing adds another critical dimension to the process--elevation. What fixed objects are in the way, like buildings, bridges, and trees. What temporary objects are in the way like cranes, cables, and other d...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/11/my-job-is-to-track-on-the-medical-devices-of-senators-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">My Job Is To Track On The Medical Devices Of Senators #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-11T00:00:00-07:00">
+                            
+                            Oct 11, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-healthcare-device.png" width="25%" align="left" style="padding: 10px; margin-top: 15px;">
+My full-time job is to keep track of the medical devices that members of the senate depend on. Specifically, the Internet-connected or network enabled devices that they use on a regular basis. I have a counterpart who works in service of the members of congress, and a separate one in charge of the White House--wee all share notes&nbsp;...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="/2016/10/07/we-specialize-in-faux-internet-of-things-hack-stories-designfiction/"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    
+                    
+
+                    
+                        <div class="uk-width-auto">
+                            
+                            <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+                        </div>
+                    
+                  
+                  
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">We Specialize In Faux Internet of Things Hack Stories #DesignFiction</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-10-07T00:00:00-07:00">
+                            
+                            Oct 7, 2016
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="" width="25%" align="left" style="padding: 10px; margin-top: 15px;">Our speciality is in crafting creative Internet of Things hack stories. Do you want your competitor to think their products are insecure? Do you want the free publicity that can come with a security breach? We are the creative team you are looking for. We have the experience to help you craft and execute exactly the perfect scenario and help you achieve your goals.
+In today's online volatile cyber security landscape the stage is set, all you have to do is seize the moment. Our most ...
+            </div>
+            <div class="uk-card-footer">
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+
+        </div>
+        
+
+        <!-- Pagination links -->
+<ul class="uk-pagination uk-margin-medium-top">
+     
+    <li class="uk-margin-auto-left"><a class="hvr-forward" href="/blog/2/">Next &rarr;</a></li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/installation/" >Docs</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li class="uk-active"><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Changelog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contact</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="http://algorotoscope.work" target="_blank" >Algorotoscope</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="http://kinlane.com" target="_blank" >Kin Lane</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Kin Lane</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1119465-35"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1119465-35');
+</script>
+
+
+    </body>
+
+</html>

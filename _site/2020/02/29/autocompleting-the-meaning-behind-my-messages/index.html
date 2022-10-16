@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Autocompleting The Meaning Behind My Messages | Alternate Kin Lane</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="Autocompleting The Meaning Behind My Messages" />
+<meta name="author" content="Kin Lane" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us all. She dismissed my diagnosis and remained confident that there was something malicious going on, and she would get to the bottom of it. I didn’t give it much more thought until a couple of weeks later when I had something similar occur to me at work." />
+<meta property="og:description" content="It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us all. She dismissed my diagnosis and remained confident that there was something malicious going on, and she would get to the bottom of it. I didn’t give it much more thought until a couple of weeks later when I had something similar occur to me at work." />
+<link rel="canonical" href="http://localhost:4000/2020/02/29/autocompleting-the-meaning-behind-my-messages/" />
+<meta property="og:url" content="http://localhost:4000/2020/02/29/autocompleting-the-meaning-behind-my-messages/" />
+<meta property="og:site_name" content="Alternate Kin Lane" />
+<meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-29T01:00:00-08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2020/02/29/autocompleting-the-meaning-behind-my-messages/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png"},"name":"Kin Lane"},"headline":"Autocompleting The Meaning Behind My Messages","dateModified":"2020-02-29T01:00:00-08:00","datePublished":"2020-02-29T01:00:00-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/02/29/autocompleting-the-meaning-behind-my-messages/"},"author":{"@type":"Person","name":"Kin Lane"},"image":"https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg","description":"It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us all. She dismissed my diagnosis and remained confident that there was something malicious going on, and she would get to the bottom of it. I didn’t give it much more thought until a couple of weeks later when I had something similar occur to me at work.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="Alternate Kin Lane" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+
+  <script src="/assets/js/main.js"></script>
+
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Autocompleting The Meaning Behind My Messages | Alternate Kin Lane">
+  <meta property="og:site_name" content="Alternate Kin Lane">
+  <meta property="og:description" content="Fictional storytelling in the cracks of technology.">
+  <meta property="og:image"  content="">
+
+  <meta name="twitter:url" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Autocompleting The Meaning Behind My Messages | Alternate Kin Lane">
+  <meta name="twitter:site" content="Alternate Kin Lane">
+  <meta name="twitter:description" content="Fictional storytelling in the cracks of technology.">
+
+  
+  
+  <meta name="twitter:image" content="">
+
+  <script src="/assets/js/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane" width="50"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/blog/" >Stories</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/about/" >About</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search the void" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No results found</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Question?</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container uk-container-xsmall">
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">Autocompleting The Meaning Behind My Messages</h1>
+
+            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                
+
+
+  
+  <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+
+
+<div>
+  
+    Written by 
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        Kin Lane 
+        
+        
+        
+              
+      </span>
+    </span><br>
+  
+  <time datetime="2020-02-29T01:00:00-08:00" itemprop="datePublished">
+    
+    Feb 29, 2020
+  </time>
+</div>
+            </div>
+
+            <div class="article-content link-primary">
+                <center><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-old-piano-playing-hospital.jpg" width="90%" align="center" style="padding: 5px;"></center>
+                <p>It was my teenage daughter and her cousin who first brought it to my attention. She was texting to him on the couch, and then looked over his shoulder to read what she had just sent to him. She exclaimed, “that is not what I said!” Then she looked at her phone and in fact it was what she had written. I asked her how the message was different. She said it was mostly what she had written, but had one or two words that were different. I dismissed it as an autocorrect error-—it happens to us all. She dismissed my diagnosis and remained confident that there was something malicious going on, and she would get to the bottom of it. I didn’t give it much more thought until a couple of weeks later when I had something similar occur to me at work.</p>
+
+<p>I had messaged a co-worker asking them to shift their position on a project proposal, asking them to be more in alignment with our union position, but after the proposal was submitted, they clearly had gone the other direction. I asked them why they didn’t listen to what I said, and they said they had. I checked my messages, and sure enough I had. Why would I do that? I distinctly remember taking a stance that was in alignment with our union objectives. After this occurring a handful of other times I began writing down what I said to anyone over text message or online chat. I began to keep a detailed diary of what I said to anyone online, and sure enough I began noticing that my messages were changing over time. I would type in one thing, and the message would arrive to sender transformed, and then it would also shift on my own device. My messaging software was not just auto-correcting my words, it was autocorrecting the meaning of what I was saying via my mobile phone and laptop computer.</p>
+
+<p>After six months I have identified 368 separate situations where the meaning and context of what I was saying slightly shifted, which most of the time did not have much of an impact, but as with the original project proposal where I first noticed all of this, some had profound effects on my personal and professional life. 76% of these shifts occurred on mew workplace devices, with the rest occurring on my personal devices. In a work environment the shifts always seemed to be in alignment with the direction of the company I work for. In the home environment I couldn’t see enough patterns to understand where the shifts in meaning might be driven. Clearly leadership at my company had some had in shaping the algorithms that transformed my messages in a workplace context, but who was doing it in my personal life? Government? Corporations? I just can’t tell who the puppet master might be in my personal world. I would have to keep logging these subtle shifts in how I communicate, and gather more data that would help me better understand what was going on.</p>
+
+<p>At first I was blaming Facebook and Google for doing this, but it was also happening on SMS, and other channels that aren’t controlled by these tech giants. Moving forward I trust no device or platform. I log all of my digital conversations. I’ve even become suspect of other digital elements like photos, documents, and videos. Could these ubiquitous digital elements in my life be manipulated? The entire experience had a gaslighting effect on my reality. I almost don’t even trust myself completely. If it wasn’t for the hand written journal that I do not let out of my sight, I wouldn’t entirely be quite sure of what is going on. I haven’t even talked with anyone about this because I don’t want to be considered crazy, and having lost my mind. Thinking back, I remember autocorrect becoming pretty annoying across my digital devices, but then it just became normal for there to be mistakes, and over time machine learning seemed to be smoothing things out and was getting better at suggesting what was “needed”. Then the autocomplete got more precise at finishing my entire sentences. Could algorithms now be autocompleting the entire meaning behind what I am trying to convey to others in this digital world we’ve created for ourselves?</p>
+
+                
+                    <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Autocompleting The Meaning Behind My Messages&url=http://localhost:4000/2020/02/29/autocompleting-the-meaning-behind-my-messages/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020%2F02%2F29%2Fautocompleting-the-meaning-behind-my-messages%2F" rel="nofollow" target="_blank" title="Share on Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                
+            </div>
+
+            <hr class="uk-margin-medium">
+
+            <div class="uk-margin-large-top paginate-post">
+    <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+        <div>
+            
+                <div><a class="remove-underline hvr-back" href="/2019/07/24/stirring-up-some-business-down-there/">&larr; Previous</a></div>
+            
+        </div>
+        <div>
+            
+                <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/2020/06/20/i-caught-myself-flickering-in-the-mirror-late-thursday-night/">Next &rarr;</a></div>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </article>
+
+        <script>
+            // Table of contents scroll to
+            UIkit.scroll('#markdown-toc a', {
+                duration: 400,
+                offset: 120
+            });
+        </script>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/installation/" >Docs</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Changelog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contact</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="http://algorotoscope.work" target="_blank" >Algorotoscope</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="http://kinlane.com" target="_blank" >Kin Lane</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Kin Lane</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1119465-35"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1119465-35');
+</script>
+
+
+    </body>
+
+</html>

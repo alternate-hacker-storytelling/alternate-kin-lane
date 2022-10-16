@@ -1,24 +1,34 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+    {% include head.html %}
 
-</head>
-<body id="{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}" class="{{ page.layout | downcase }}-layout">
+    <body>
 
-  {% include header.html %}
-
-  <main class="💈">
+    {% if page.hero %}
+        {% include hero.html %}
+    {% else %}
+        {% include navbar.html %}
+    {% endif %}
 
     {{ content }}
 
-  </main>
+    {% include offcanvas-docs.html %}
 
-  {% include footer.html %}
+    {% include offcanvas.html %}
 
-</body>
+    {% if page.layout != 'info' %}
+        {% include footer.html %}
+    {% endif %}
+
+    {% if page.layout == 'info' %}
+        {% include hook-pre-closing-body-doc.html %}
+    {% endif %}
+
+    {% include hook-pre-closing-body.html %}
+
+    {% include google-analytics.html %}
+
+    </body>
+
 </html>

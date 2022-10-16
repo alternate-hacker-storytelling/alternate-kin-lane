@@ -1,0 +1,16 @@
+# Navbar left menu navigation links
+left:
+  - title: Home
+    url: /
+
+  - title: Stories
+    url: /blog/    
+
+  - title: About
+    url: /about/ 
+
+right:
+
+  - title: Question?
+    url: /contact/
+    button: success

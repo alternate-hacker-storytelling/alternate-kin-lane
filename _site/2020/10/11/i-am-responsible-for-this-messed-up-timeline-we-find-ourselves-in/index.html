@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>I Am Responsible For This Messed Up Timeline We Find Ourselves In | Alternate Kin Lane</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="I Am Responsible For This Messed Up Timeline We Find Ourselves In" />
+<meta name="author" content="Kin Lane" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it started kicking in. The right mixture of time and bong hits passed and we slipped into this new timeline barely noticing the world had shifted around us." />
+<meta property="og:description" content="I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it started kicking in. The right mixture of time and bong hits passed and we slipped into this new timeline barely noticing the world had shifted around us." />
+<link rel="canonical" href="http://localhost:4000/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/" />
+<meta property="og:url" content="http://localhost:4000/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/" />
+<meta property="og:site_name" content="Alternate Kin Lane" />
+<meta property="og:image" content="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-eeob-white-house.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-10-11T02:00:00-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png"},"name":"Kin Lane"},"headline":"I Am Responsible For This Messed Up Timeline We Find Ourselves In","dateModified":"2020-10-11T02:00:00-07:00","datePublished":"2020-10-11T02:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/"},"author":{"@type":"Person","name":"Kin Lane"},"image":"https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-eeob-white-house.jpg","description":"I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it started kicking in. The right mixture of time and bong hits passed and we slipped into this new timeline barely noticing the world had shifted around us.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="Alternate Kin Lane" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+
+  <script src="/assets/js/main.js"></script>
+
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="I Am Responsible For This Messed Up Timeline We Find Ourselves In | Alternate Kin Lane">
+  <meta property="og:site_name" content="Alternate Kin Lane">
+  <meta property="og:description" content="Fictional storytelling in the cracks of technology.">
+  <meta property="og:image"  content="">
+
+  <meta name="twitter:url" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="I Am Responsible For This Messed Up Timeline We Find Ourselves In | Alternate Kin Lane">
+  <meta name="twitter:site" content="Alternate Kin Lane">
+  <meta name="twitter:description" content="Fictional storytelling in the cracks of technology.">
+
+  
+  
+  <meta name="twitter:image" content="">
+
+  <script src="/assets/js/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane" width="50"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/blog/" >Stories</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/about/" >About</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search the void" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No results found</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Question?</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container uk-container-xsmall">
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">I Am Responsible For This Messed Up Timeline We Find Ourselves In</h1>
+
+            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                
+
+
+  
+  <img class="uk-border-circle avatar" src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png" alt="Kin Lane">
+
+
+<div>
+  
+    Written by 
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        Kin Lane 
+        
+        
+        
+              
+      </span>
+    </span><br>
+  
+  <time datetime="2020-10-11T02:00:00-07:00" itemprop="datePublished">
+    
+    Oct 11, 2020
+  </time>
+</div>
+            </div>
+
+            <div class="article-content link-primary">
+                <center><img src="https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/citizenship-eeob-white-house.jpg" width="90%" align="center" style="padding: 5px;"></center>
+                <p>I now remember the evening that set all of this in motion. When the fracture in the space time continuum occurred. From my position this is when I started down this timeline, but guess y’all are along for the ride as well. Chad, Toby, Ramon and I had decided to eat some acid. It was some fresh album cover acid Chad and Toby had gotten from their cousins. We ripped it up into four separate chunks and each began chewing on our wad of paper. We had mostly forgotten that we ate it once it started kicking in. The right mixture of time and bong hits passed and we slipped into this new timeline barely noticing the world had shifted around us.</p>
+
+<p>Within 15 minutes Ramon was asleep as he always was. He would come around the next day claiming that it was some bunk shit as he always did. Toby began talking about this hot chick he had met at a party last night, and slipped away into the night, hunting down the pretty girl as Toby always did. Chad sat in the corner plucking away at his guitar trying to emulate Eddie Van Halen, stating his desire to be a rock guitar god like Eddie, because then he could live forever, drinking as much Jack Daniels, and smoking as many cigarettes as he wanted. Closing his thoughts with a couple well crafted smoke rings before attempting Eruption for the 20th time. Chad would fade into the background as I mistakenly turned on the television and entered into my new heighten state of awareness, and unknowingly was given the keys to the future, letting a kid who possessed amazingly powerful abilities to manifest reality, but who had next to no experience doing it, get in behind the wheel of this clown car we call humanity.</p>
+
+<p>From my fearful position in Southern Oregon in 1988 I was exhausted from the Ronald Reagan brand of conservatism I was drowning in, with his wife literally starting a war in our backyard, sending in the Black Hawk helicopters each summer to route up my friends parents who were growing Marijuana. After making my way back along the river from Chad and Toby’s moms house, upstream to Bobby’s house we all gave the middle figure to a helicopter making its way up the river—-close enough that I could see the eyes of the men leaning out the window like they were in Nam. When I turned on the television that evening, David Letterman had just started, and just as he invited on Donald Trump I began to lose grip with reality. I can’t tell you want he said. I can’t articulate what the next 6 hours contained. It is just a jumbled vortex of images of Donald Trump, Ronald Reagan, war, power, hatred, racism, and white supremacy. Now, in 2020 I can see this vortex forming a swirling mess of what we consider reality today. I can see Trumps lips moving then, and them moving now, like some sort of puppet strings from the past, controlling the words of today.</p>
+
+<p>I now understand my powers of manifestation. That I am creating reality with my thoughts and my fears. I didn’t grasp that back then. I didn’t understand what I was messing with when I took that album cover acid. I didn’t see the programming that was coming in from New York City that evening. I didn’t realize the implications of the numerous other newsreels I saw at 2:33, 3:21, and 4:20 AM that morning as I came back to a human form. A very broken, fractured, and shifted human form, but still one that would pass as human to everyone around me. I saw everything that is happening today that night. I manifested today’s Trump from those images of him in the 1980s, molded and shaped what we see of him today from my fear and hatred of conservatives in 1988. I had taken what I learned in Nixon’s war that broke my parents, and Nancy’s war that was breaking me, and I used it as a model for creating the future. I didn’t know I had these abilities back then. I was just fumbling my way forward as a 16 year old human being. Manifesting good grades. A ride to the part that weekend. Or someone to buy us beer in the parking lot of Shop n Kart. I didn’t know I could create 2020 in 1988. For me, the end of the world would occur in 2000, and there was no way that I could know the future was up to me.</p>
+
+<p>If I had known I would never had turned on the TV that night. I would have just sat there listening to Chad emulate Eddie Van Halen and listened to Ramon snore, taking bong hits until the sun came up. Instead I turned on the TV and let a world I didn’t understand infect my brain, my soul, and disrupt the space time continuum. Where reality would become a TV show, and we’d live in a twisted distorted fear-based reality born in a conservative primordial sludge. I didn’t know how I felt could shift the balance of things so heavily. I didn’t think the lingering fantasies from my 7th grade Wolverine Watchmen club, where we trained in the woods for the coming Russian invasion would live on to be come reality in 2020 and taken seriously by so many scared souls. I am sorry that we ended up living in some sort of dystopian conservative middle school boy fantasy. I am much more cautious now about what I manifest today. I know that the world is not as I see, and that my emotions and response to things around me can have consequences in how the future will unfold. While I am pretty confident that the world I have manifested after 1995 are much saner and compassionate, sadly I am concern for the dark years in between, telling me that we have a bumpy ride for a few more years, which we may or may not survive and ultimately make it into a timeline that makes a little more sense. I apologize for tripp’n and not understanding the role I’d play in this fucked up mess.</p>
+
+                
+                    <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=I Am Responsible For This Messed Up Timeline We Find Ourselves In&url=http://localhost:4000/2020/10/11/i-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020%2F10%2F11%2Fi-am-responsible-for-this-messed-up-timeline-we-find-ourselves-in%2F" rel="nofollow" target="_blank" title="Share on Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                
+            </div>
+
+            <hr class="uk-margin-medium">
+
+            <div class="uk-margin-large-top paginate-post">
+    <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+        <div>
+            
+                <div><a class="remove-underline hvr-back" href="/2020/06/28/facial-recognition-has-exposed-that-there-are-only-so-man-souls-to-go-around/">&larr; Previous</a></div>
+            
+        </div>
+        <div>
+            
+                <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/2022/09/24/sentinel-apis/">Next &rarr;</a></div>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </article>
+
+        <script>
+            // Table of contents scroll to
+            UIkit.scroll('#markdown-toc a', {
+                duration: 400,
+                offset: 120
+            });
+        </script>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png" alt="Alternate Kin Lane"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/installation/" >Docs</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Changelog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contact</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="http://algorotoscope.work" target="_blank" >Algorotoscope</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="http://kinlane.com" target="_blank" >Kin Lane</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/kinlane" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/kinlane" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://github.com/kinlane" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Kin Lane</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1119465-35"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1119465-35');
+</script>
+
+
+    </body>
+
+</html>

@@ -1,19 +1,10 @@
 ---
-layout: default
+layout: page
+width: expand
+title: Kin Lane
+hero:
+    title: Alternate Kin Lane
+    subtitle: Nothing yoiu will read here is true, but some of it may resemble the world you know.
+    image:
+    search: true
 ---
-<!-- The main content area -->
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
-
-      {% for post in paginator.posts %}
-
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
-
-      {% endfor %}
-    </div>
-  </div>
-
-  {% include pagination.html %}
-</div>
