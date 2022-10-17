@@ -8,7 +8,7 @@ tags:
   - Scale
   - Enterprise
   - Growth
-image: christianity-christianity-under-construction-copper-circuit.jpg
+image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/christianity-christianity-under-construction-copper-circuit.jpg
 ---
 You have 5 times the number of APIs you thought you did after doing the last census. You now have 760K APIs in operation across the enterprise with a rate of new APIs being deployed around 40+ per week. I know that you are feeling like you should put the brakes on this until you get your digital resource sprawl under control, but I am here to be the voice of reason. There are good reasons why you are developing this many APIs. Do not get in the way of teams when it comes to their innovation and forward motion. The last thing you want to do is impose any restrictions on your team's ability to move forward at the speed they need. You need to encourage teams to build as many APIs as they need, for whatever purpose they encounter, and rely on your tooling, expertise, and specialty cross-cutting teams to clean up, optimize, and standardize behind your day to day operations.
 
