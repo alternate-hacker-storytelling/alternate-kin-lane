@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Microsoft
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master//bf-skinner-fox-oakland-out-front.jpeg
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-fox-oakland-out-front.jpeg
 ---
 I was able to identify the patterns after sifting through the API gateway log files. From regular network traffic they just look like messages to and from the intended sender and receivers, but when you do a diff across all of the API calls made to formulate, send, receive, and respond to messages, an entirely different picture emerges. All of the messages sent to and from the OpenAI board over the last week, and across those of about 15 others from what I can tell, originated from OpenAI APIs.
 
