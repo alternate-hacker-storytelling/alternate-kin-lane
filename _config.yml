@@ -28,13 +28,12 @@ author:
 authors:
     kin:
       name:         Kin Lane
-      title:        Chief Evangelist 
+      title:        API Evangelist
       avatar:       https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png
-      email:       'kinlane@postman.com'
-      affiliation: 'Postman Open Technologies'
+      email:       'info@apievangelist.com'
+      affiliation: 'Human Being'
       github:      'kinlane'
       linkedin:    'in/kinlane'
-      twitter:     'kinlane'           
 
 # Social icons displayed in footer
 social:
@@ -48,7 +47,7 @@ social:
     instagram:     
     linkedin:       https://www.linkedin.com/in/kinlane/
     pinterest:
-    twitter:        https://twitter.com/kinlane
+    twitter:
     vimeo:          
     youtube:        
 
