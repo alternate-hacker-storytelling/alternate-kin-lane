@@ -11,8 +11,14 @@
         {% include navbar.html %}
     {% endif %}
 
+    <div class="alert alert-warning" role="alert">
+        Nothing On This Site is Real - <a href="/about">About</a>
+    </div>
     {{ content }}
-
+    <div class="alert alert-warning" role="alert">
+        Nothing On This Site is Real - <a href="/about">About</a>
+    </div>
+    
     {% include offcanvas-docs.html %}
 
     {% include offcanvas.html %}
