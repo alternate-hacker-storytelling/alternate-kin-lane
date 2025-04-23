@@ -12,24 +12,15 @@ tags:
   - Compliance
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-metlife-bulding-siide.jpeg
 ---
-Monday April 22, 2024 : Kin Lane : 07:59:34 AM - Front door of building entered.
+- Monday April 22, 2024 : Kin Lane : 07:59:34 AM - Front door of building entered.
+- Monday April 22, 2024 : Kin Lane : 05:03:33 PM - Front door of building exited.
+- Tuesday April 23, 2024 : Kin Lane : 07:37:11 AM - Front door of building entered.
+- Tuesday April 23, 2024 : Kin Lane : 05:15:12 PM - Front door of building exited.
+- Wednesday April 24, 2024 : Kin Lane : 07:58:04 AM - Front door of building entered.
+- Wednesday April 24, 2024 : Kin Lane : 05:22:18 PM - Front door of building exited.
+- Thursday April 25, 2024 : Kin Lane : 08:00:22 AM - Front door of building entered.
+- Thursday April 25, 2024 : Kin Lane : 05:29:01 PM - Front door of building exited.
+- Friday April 26, 2024 : Kin Lane : 07:59:01 AM - Front door of building entered.
+- Friday April 26, 2024 : Kin Lane : 05:01:57 PM - Front door of building exited.
 
-Monday April 22, 2024 : Kin Lane : 05:03:33 PM - Front door of building exited.
-
-Tuesday April 23, 2024 : Kin Lane : 07:37:11 AM - Front door of building entered.
-
-Tuesday April 23, 2024 : Kin Lane : 05:15:12 PM - Front door of building exited.
-
-Wednesday April 24, 2024 : Kin Lane : 07:58:04 AM - Front door of building entered.
-
-Wednesday April 24, 2024 : Kin Lane : 05:22:18 PM - Front door of building exited.
-
-Thursday April 25, 2024 : Kin Lane : 08:00:22 AM - Front door of building entered.
-
-Thursday April 25, 2024 : Kin Lane : 05:29:01 PM - Front door of building exited.
-
-Friday April 26, 2024 : Kin Lane : 07:59:01 AM - Front door of building entered.
-
-Friday April 26, 2024 : Kin Lane : 05:01:57 PM - Front door of building exited.
-
-Week 26: Employee Kin Lane is Compliant.
+**Week 26: Employee Kin Lane is Compliant.**
