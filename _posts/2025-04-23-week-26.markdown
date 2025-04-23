@@ -12,7 +12,7 @@ tags:
   - Compliance
 image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-metlife-bulding-siide.jpeg
 ---
-### Build Key FOB Logs
+### Building Key FOB Logs
 
 - Monday April 22, 2024 : Kin Lane : 07:59:34 AM - Front door of building entered.
 - Monday April 22, 2024 : Kin Lane : 05:03:33 PM - Front door of building exited.
