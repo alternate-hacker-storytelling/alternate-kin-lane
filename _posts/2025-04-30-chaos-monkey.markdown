@@ -8,7 +8,7 @@ tags:
   - Chaos
   - Testing
   - Government
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-playing-guitar.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-angry-man-head.jpeg
 ---
 We needed a full test of the United States system. We couldn’t just leave anything to chance and we needed something that would stress test across every agency and function of government. We needed a chaos monkey that would bounce around and make sure after 250 years that the constitution, and the three houses of government could withstand an attack from the inside. Donald Trump was the ideal chaos monkey that we could unleash that would apply pressure at the extreme levels we would need to be sure.
 
