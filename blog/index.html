@@ -8,12 +8,16 @@ title: Stories
 
         <h1 class="uk-article-title uk-text-center">{{ page.title | escape }}</h1>
 
+        <div class="uk-text-center uk-margin-medium-bottom">
+            <a href="{{ '/tags/' | relative_url }}" class="uk-link-muted uk-text-small">Browse by tag &rarr;</a>
+        </div>
+
         {% for post in paginator.posts %}
         <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
             <div class="uk-card-header">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
-                    
+
                     {% if post.author %}
                       {% assign author = site.authors[post.author.name] %}
                     {% else %}
@@ -22,27 +26,42 @@ title: Stories
 
                     {% if author.avatar %}
                         <div class="uk-width-auto">
-                            {% if author.avatar contains 'http' %}
-                                {% assign domain = '' %}
-                            {% else %}
-                                {% assign domain = '' %}
-                            {% endif %}
                             <img class="uk-border-circle avatar" src="{{ author.avatar }}" alt="{{ author.name }}">
                         </div>
                     {% endif %}
-                  
-                  
+
                     <div class="uk-width-expand">
                         <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.title }}</h3>
-                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="{{ post.date | date_to_xmlschema }}">
-                            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                            {{ post.date | date: date_format }}
-                        </time></p>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                            <time datetime="{{ post.date | date_to_xmlschema }}">
+                                {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+                                {{ post.date | date: date_format }}
+                            </time>
+                            {% assign words = post.content | strip_html | number_of_words %}
+                            {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+                            &middot; {{ reading_time }} min read
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="uk-card-body">
-                <img src="{{ post.image }}" width="25%" align="left" style="padding: 10px; margin-top: 15px;">{{ post.excerpt | truncate: 500 | strip_html }}
+                <div class="post-card-grid">
+                    {% if post.image %}
+                    <div class="post-card-image">
+                        <img src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+                    </div>
+                    {% endif %}
+                    <div class="post-card-excerpt">
+                        {{ post.excerpt | truncate: 500 | strip_html }}
+                    </div>
+                </div>
+                {% if post.tags and post.tags.size > 0 %}
+                <div class="post-card-tags uk-margin-small-top">
+                    {% for tag in post.tags limit:4 %}
+                        <span class="uk-label post-tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
             <div class="uk-card-footer">
                 <span class="uk-button uk-button-text">{{ site.data.translation[site.lang].read_more | default: "Read more" }} &rarr;</span>

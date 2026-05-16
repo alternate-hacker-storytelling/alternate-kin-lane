@@ -1,0 +1,45 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class="uk-section">
+    <div class="uk-container uk-container-xsmall tag-archive">
+
+        <h1 class="uk-article-title uk-text-center">{{ page.title | escape }}</h1>
+
+        {% assign tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort_natural %}
+
+        <div class="tag-cloud uk-text-center">
+            {% for tag in tags %}
+                {% assign tag_trimmed = tag | strip %}
+                {% if tag_trimmed != "" %}
+                    <a class="uk-label post-tag" href="#{{ tag_trimmed | slugify }}">{{ tag_trimmed }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        {% for tag in tags %}
+            {% assign tag_trimmed = tag | strip %}
+            {% if tag_trimmed != "" %}
+                <div class="tag-section" id="{{ tag_trimmed | slugify }}">
+                    <h2>{{ tag_trimmed }}</h2>
+                    <ul class="uk-list link-secondary">
+                        {% for post in site.posts %}
+                            {% if post.tags contains tag_trimmed %}
+                                <li>
+                                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                                    <span class="uk-text-meta">
+                                        &middot; {{ post.date | date: "%b %-d, %Y" }}
+                                    </span>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        {% endfor %}
+
+    </div>
+</div>

@@ -280,7 +280,11 @@
     }
     .avatar {
         margin-right: 15px;
-        max-width: 36px;
+        max-width: 52px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .reading-time {
+        color: $global-muted-color;
     }
 }
 
@@ -314,9 +318,20 @@
             }
         }
         blockquote {
-            border-left: solid 2px $global-muted-color;
-            padding-left: $base-margin-vertical;
+            border-left: solid 4px $global-primary-background;
+            padding-left: $global-margin;
             line-height: 1.7;
+            color: $global-color;
+            font-style: italic;
+            background: rgba($global-primary-background, 0.06);
+            padding-top: $global-small-margin;
+            padding-bottom: $global-small-margin;
+            border-radius: 0 $border-radius-small $border-radius-small 0;
+        }
+
+        pre, code {
+            background: $border-xlight;
+            border-radius: $border-radius-small;
         }
 
         figure, .uk-slideshow {
@@ -442,6 +457,123 @@
     }
     .uk-container.uk-container-xsmall {
         max-width: 700px;
+    }
+
+    // Responsive post hero image
+    .post-hero {
+        margin: 0 0 $global-medium-margin 0;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: 480px;
+            object-fit: cover;
+            border-radius: $border-radius-medium;
+            box-shadow: $global-medium-box-shadow;
+        }
+    }
+
+    // Blog index card with responsive image
+    .post-card-grid {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        gap: $global-margin;
+        align-items: start;
+
+        @media (max-width: $breakpoint-small) {
+            grid-template-columns: 1fr;
+        }
+    }
+    .post-card-image {
+        img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+            border-radius: $border-radius-small;
+        }
+    }
+    .post-card-excerpt {
+        font-size: $global-small-font-size;
+        line-height: 1.7;
+        color: $global-color;
+        font-family: $global-font-family;
+    }
+
+    // Tag chips
+    .post-tag {
+        background: lighten($global-primary-background, 45%);
+        color: darken($global-primary-background, 10%);
+        margin-right: 6px;
+        margin-bottom: 6px;
+        text-transform: none;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, sans-serif;
+        position: relative;
+        z-index: 2;
+    }
+    a.post-tag:hover {
+        background: $global-primary-background;
+        color: #fff;
+        text-decoration: none;
+    }
+    .post-tags, .post-card-tags {
+        position: relative;
+        z-index: 2;
+    }
+
+    // Related posts block
+    .related-posts {
+        h3 {
+            font-size: $global-medium-font-size;
+            color: $global-muted-color;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: $global-small-margin;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        ul li {
+            padding: 8px 0;
+            border-bottom: solid 1px $border-xlight;
+            &:last-child { border-bottom: none; }
+        }
+    }
+
+    // Share buttons block
+    .share {
+        a { margin: 0 8px; }
+    }
+
+    // Subtle fiction disclaimer
+    .fiction-disclaimer {
+        color: $global-muted-color;
+        font-style: italic;
+        font-size: $global-small-font-size;
+        padding-top: $global-margin;
+        border-top: solid 1px $border-xlight;
+    }
+
+    // Tag archive page
+    .tag-archive {
+        .tag-section {
+            margin-top: $global-large-margin;
+            h2 {
+                font-size: $global-large-font-size;
+                color: $global-primary-background;
+                border-bottom: solid 2px $border-light;
+                padding-bottom: $global-small-margin;
+            }
+            ul li {
+                padding: 6px 0;
+            }
+        }
+        .tag-cloud {
+            margin-bottom: $global-large-margin;
+            a {
+                display: inline-block;
+                margin: 4px;
+            }
+        }
     }
     .hvr-forward {
         display: inline-block;

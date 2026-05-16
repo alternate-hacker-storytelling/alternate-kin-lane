@@ -1,20 +1,20 @@
 // Docs Theme Variables
 // ========================================================================
 
-// Color
-$global-color:                                #323247;
-$global-muted-color:                          #8f919e;
-$global-primary-background:                   #05c896;
-$global-secondary-background:                 #222;
-$global-warning-background:                   #fbc418;
+// Color — atmospheric palette for fiction site
+$global-color:                                #2a2738;
+$global-muted-color:                          #7a7689;
+$global-primary-background:                   #6b4d7c;
+$global-secondary-background:                 #1d1b2a;
+$global-warning-background:                   #b8956a;
 $global-success-background:                   #403e56;
-$global-danger-background:                    #f0506e;
+$global-danger-background:                    #b85461;
 $base-link-color:                               $global-color;
 $base-link-hover-color:                         $global-color;
 $link-muted-hover-color:                        $global-color;
 
-// Font
-$global-font-family:                            system-ui;
+// Font — serif body for storytelling
+$global-font-family:                            "Lora", Georgia, "Times New Roman", Times, serif;
 $global-xxlarge-font-size:                      2.25rem;    // H1
 $global-xlarge-font-size:                       1.6875rem;  // H2
 $global-large-font-size:                        1.375rem;   // H3
@@ -111,8 +111,8 @@ $pagination-item-color:                         $global-color;
 $pagination-item-hover-color:                   $global-color;
 
 // Article
-$article-meta-font-size: 	                    $xsmall-font-size;
-$article-meta-line-height:                      1.4;
+$article-meta-font-size: 	                    $global-small-font-size;
+$article-meta-line-height:                      1.6;
 $article-title-line-height:                     1.4;
 $article-title-font-size:                       2.125rem;
 

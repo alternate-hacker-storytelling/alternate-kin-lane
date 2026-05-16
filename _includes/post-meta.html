@@ -5,20 +5,15 @@
 {% endif %}
 
 {% if author.avatar %}
-  {% if author.avatar contains 'http' %}
-      {% assign domain = '' %}
-  {% else %}
-    {% assign domain = '' %}
-  {% endif %}
-  <img class="uk-border-circle avatar" src="{{ domain }}{{ author.avatar }}" alt="{{ author.name }}">
+  <img class="uk-border-circle avatar" src="{{ author.avatar }}" alt="{{ author.name }}">
 {% endif %}
 
 <div>
   {% if author.name %}
-    {{ site.data.translation[site.lang].written_by | default: "Written by" }} 
+    {{ site.data.translation[site.lang].written_by | default: "Written by" }}
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
       <span itemprop="name">
-        {{ author.name }} {% if author.affiliation %}, {{ author.affiliation | escape }} {% endif %}
+        {{ author.name }}{% if author.affiliation %}, {{ author.affiliation | escape }}{% endif %}
         {% if author.twitter %}
           <a href="https://twitter.com/{{author.twitter}}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a>
         {% endif %}
@@ -30,7 +25,7 @@
         {% endif %}
         {% if author.email %}
           <a href="mailto:{{author.email}}" class="icon fa-envelope"><span class="label">Email</span></a>
-        {% endif %}      
+        {% endif %}
       </span>
     </span><br>
   {% endif %}
@@ -38,4 +33,7 @@
     {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
     {{ page.date | date: date_format }}
   </time>
+  {% assign words = content | strip_html | number_of_words %}
+  {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+  <span class="reading-time">&middot; {{ reading_time }} min read</span>
 </div>

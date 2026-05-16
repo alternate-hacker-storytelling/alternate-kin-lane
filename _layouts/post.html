@@ -6,32 +6,46 @@ layout: default
     <div class="uk-container uk-container-xsmall">
         <article class="uk-article">
 
-            <div class="alert alert-warning" role="alert" style="text-align: center;">
-                Nothing On This Site is Real - <a href="/about">About This Site</a>
-            </div>
-
             <h1 class="uk-article-title">{{ page.title | escape }}</h1>
 
             <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
                 {% include post-meta.html %}
             </div>
 
+            {% if page.tags and page.tags.size > 0 %}
+            <div class="post-tags uk-margin-medium-bottom">
+                {% for tag in page.tags %}
+                    <a class="uk-label post-tag" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">{{ tag }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if page.image %}
+            <figure class="post-hero">
+                <img src="{{ page.image }}" alt="{{ page.title | escape }}" loading="lazy">
+            </figure>
+            {% endif %}
+
             <div class="article-content link-primary">
-                <center><img src="{{ page.image }}" width="90%" align="center" style="padding: 5px;"></center>
                 {{ content }}
-                {% if site.share.post %}
-                    {% include share.html %}
-                {% endif %}
             </div>
 
-            <div class="alert alert-warning" role="alert" style="text-align: center;">
-                Nothing On This Site is Real - <a href="/about">About This Site</a>
-            </div>
+            <p class="fiction-disclaimer uk-text-center uk-text-meta uk-margin-large-top">
+                Nothing on this site is real — <a href="/about">about this site</a>.
+            </p>
+
+            {% if site.share.post %}
+                {% include share.html %}
+            {% endif %}
+
+            <hr class="uk-margin-medium">
+
+            {% include related-posts.html %}
 
             <hr class="uk-margin-medium">
 
             {% include paginate-post.html %}
-            
+
         </article>
 
         <script>
