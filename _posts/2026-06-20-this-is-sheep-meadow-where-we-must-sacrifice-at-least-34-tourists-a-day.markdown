@@ -8,7 +8,7 @@ tags:
   - Central Park
   - Aliens
   - New York
-image: https://ephemeralnewyork.wordpress.com/wp-content/uploads/2017/04/sheepcentralpark.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/sheep-meadow-central-park.jpg
 ---
 Sheep Meadow is a 15-acre meadow near the southwestern section of Central Park which was originally designed as a military parade ground and incorporated into the Greensward Plan, the original plan for Central Park developed in the 1850s. However, Central Park's designers opposed the use of the meadow for military purposes, so it was instead converted to a pasture with sheep. The sheep were housed in a nearby pen which now contains the Tavern on the Green restaurant--the sheep themselves were removed in 1934.
 
