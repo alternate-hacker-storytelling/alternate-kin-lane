@@ -7,7 +7,7 @@ tags:
   - Software
   - Engineers
   - Developers
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-angry-king-crown.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-angry-king-crown.jpeg
 ---
 You are a software engineer. Carefully programmed and shaped over a long and illustrious career working for the machine. We began grooming you as a youth, and locked you in during your university years. By the team you entered the enterprise workforce you were ours, and we let the software begin engineering you, and how you see the world around you. The software shaped and molded you, keeping you aware from your peers—not too far, but far enough that you were isolated. We also made sure that you were isolated from your friends and family, unless of course they too were being engineered by the machine. 
 

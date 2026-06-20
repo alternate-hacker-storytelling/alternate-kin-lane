@@ -9,7 +9,7 @@ tags:
   - Humans
   - People
   - Ghosts
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/red-circuit-angry-man-head.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/red-circuit-angry-man-head.jpeg
 ---
 After improving our AI model observability we were able to identify a new evolution of what can only call AI Homunculi. I hesitate to even call it an intelligence, but the accumulation or reside seems to be taking actions outside the normal scope of the AI model. This first occurred in models that were kept running for months at a time without any update, and saw heavy agent engagement. However, beginning last year we saw these Homunculi manifest themselves visually as diminutive human shadows or ghosts on the observability dashboard and migrate between AI models using agents as a transport.
 

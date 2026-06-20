@@ -8,7 +8,7 @@ tags:
   - Deprogramming
   - Intervention
   - Society
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-angry-man-head.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-angry-man-head.jpeg
 ---
 We don't respond to all incidents. There are a number of factors that will influence our decision to intervene or not. We are looking for people with something to give. Someone who has a history of giving back and contributing to society. If someone is a do nothing, why bother? But when there is evidence that the world will be less bright without sometime contributing to the world, we'll step in a respond to a single or group of cooked individuals.
 

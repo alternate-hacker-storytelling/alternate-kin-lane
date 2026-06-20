@@ -10,7 +10,7 @@ tags:
   - Health
   - Universes
   - Severence
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-glass-ball-downtown.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-glass-ball-downtown.jpg
 ---
 Look at my arms. Don’t they look great. Yes, I am sore, tired, and hungry, but at least I didn’t have to spend time in the gym. I hate it there. The smell. The sweat. The pain. I’d much rather deal with the aftermath, and the reward, while paying the subscription fee for my Gymie to exist. My Gymie subscriptions are about 1/3 my rent but well worth it. I mean just look at me. I look great! It pays to have a version of myself that only pays attention to how good I look and a version of myself who makes the most of looking so good!
 

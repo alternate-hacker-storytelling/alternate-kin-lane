@@ -8,7 +8,7 @@ tags:
   - Father
   - Children
   - Community
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-immigration_dumping-ground-Kins-Album-Mom-1_0016.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-immigration_dumping-ground-Kins-Album-Mom-1_0016.jpg
 ---
 Figuring out who you are while also trying to figure out the world is extremely difficult. I get where your head was at when you took that job in Chicago. You don’t have to explain yourself mother, although I do love hearing the story from your perspective—I’ve never heard this version before. I was definitely hurt and scared after it happened, but I was seven years old, so I didn’t really understand what was going on. I’ve heard my father’s version of why you left, and I’ve heard my grandparents version, but I love hearing your story of not why you left, but where you wanted to go and who you wanted to be.
 

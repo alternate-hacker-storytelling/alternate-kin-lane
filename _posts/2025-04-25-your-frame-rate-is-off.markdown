@@ -10,7 +10,7 @@ tags:
   - Pace
   - Online
   - Offline
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-ferris-wheel-fair.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-ferris-wheel-fair.jpeg
 ---
 Our diagnosis is pretty conclusive—your frame rate is off. About 93% of the American population suffers from an imbalanced frame-rate. It is more noticeable and devastating on a daily basis for those who were around for the Internet. For those who have grown up in it the daily challenges are less, but when there is any major shift in their worlds, their response is much more damaging and long lasting.
 

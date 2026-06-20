@@ -8,7 +8,7 @@ tags:
   - Rentals
   - Pharmaceuticals
   - Entertainment
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-butterfly-on-flower.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-butterfly-on-flower.jpg
 ---
 No. No. It’s not like the movie. We don’t cut open your brain. It is just a pharmaceutical intervention. All you have to do is take the pill that is programmed to target the memory of the movie you are renting. For example, if you wanted to rent the Matrix again, all you have to do is order the pill for that movie and it will arrive the next day. It is all part of a single movie rental package where you have access to the movie on your device of choice, and the matching pill is in your mailbox within 24 hours. It’s that easy. The experience is the best if you take the pill the night before you want to watch.
 

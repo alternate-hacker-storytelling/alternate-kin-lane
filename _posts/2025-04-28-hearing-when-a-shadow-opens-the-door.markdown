@@ -8,7 +8,7 @@ tags:
   - Hearing
   - Seeing
   - World
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/francis-williams-dragon-shadow-sun-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/francis-williams-dragon-shadow-sun-2.jpg
 ---
 It takes getting to know someone and building trust with them before they will open a door and let you in. The same is true for the shadows. You can’t just walk around the world and expect shadows to reveal itself secrets to you unless you are willing to be present, do the work, and build trust. It is easy to think that shadows are all about seeing with your eyes, but the real trust and opporunity exist when you hear a shadow open a door.
 

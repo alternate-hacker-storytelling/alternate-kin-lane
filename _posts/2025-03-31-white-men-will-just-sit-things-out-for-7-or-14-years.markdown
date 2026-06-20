@@ -7,7 +7,7 @@ tags:
   - White Men
   - Patriarchy
   - Reset
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-central-park-water.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-central-park-water.jpeg
 ---
 It is mandatory across all white men aged 25 through 75. Whether or not you will sit out 7 years or 14 years is dependent on the role you play in society. If your skills are needed in a priority way, you are likely to be only out of the picture for 7 years, but otherwise it is a minimum of 14 years or more—with the number reassessed every year. Yes, it definitely seems unfair if you are completely unaware of how the United States has been operating for the last 400+ years. We’ve seen historic efforts like DEI and affirmative action, but this is acknowledgement that we need a complete resetting of things, and white men have had a good run, but also have proven to be untrustworthy stewards of the diverse country the United States has become—here are your options.
 

@@ -9,7 +9,7 @@ tags:
   - Humans
   - Pods
   - Spa
-image: https://kinlane-productions2.s3.us-east-1.amazonaws.com/pods-beds-spa.jpg
+image: https://kinlane-images.s3.amazonaws.com/kinlane/pods-beds-spa.jpg
 ---
 The light next to each bed appears to for each spa members, but it is also an early experience to see if we can generate electricity from each bed. We are running a test over the next six months to see how much voltage can be produced from just the night time sleeping period, but also day time naps. 
 

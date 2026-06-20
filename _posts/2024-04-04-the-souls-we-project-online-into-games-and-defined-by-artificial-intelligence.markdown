@@ -8,7 +8,7 @@ tags:
   - Online
   - Games
   - Artificial Intelligence
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-god-sitting-hand-on-kneww.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-god-sitting-hand-on-kneww.jpeg
 ---
 The Calusa, an indigenous people of Florida's southwest coast believed that they had three souls and that they were located in the pupil of a person's eye, his shadow, and their reflection. We now believe that we also have a soul that is projected online by ourselves, as well as within the characters we assume in online game, and how we are defined by artificial intelligence. In the last fifty years we have witnessed extraordinary connections between our physical self and what many would consider our traditional soul, but reflected online, in games, and via AI, with real life physical consequences.
 

@@ -7,7 +7,7 @@ tags:
   - Transit
   - Transportation
   - Nomads
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/california-travel-by-train-d-train.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/california-travel-by-train-d-train.jpg
 ---
 Eventually I hope to get back out to San Diego to see my sister, but it has taken me 2 years to work my way to Texas from New York City. Honestly, I kind of like the slow pace. I like the eddies along the way I get stuck in. I’ve been to stations that have trains stop every 5 minutes, and stations that have trains stop once a day. I like the families and friends I’ve made along the way at transit stops. It definitely isn’t the life for everyone, but I have grown accustomed to it, and I am unsure how long I will actually stay once I get to San Diego. I have a cousin in Seattle who keeps telling me about their collective up there, so maybe I’ll end up there. Who knows. Sometimes I just think I will nod out along the way on a line I can’t remember and never wake up, until the end of the line and someone tries to wake me up. 
 

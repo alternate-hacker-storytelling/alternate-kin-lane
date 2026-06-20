@@ -5,7 +5,7 @@
   description: >-
     My entire network runs on Github, use the issue management for any of my
     sites--here is the repo for API Evangelist.
-  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png'
+  image: 'https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-github.png'
   category: Code
 - view_sort: A
   name: Email
@@ -14,5 +14,5 @@
   description: >-
     I try to work through my email, but I get more than I can process. I do my
     best, but email isn't always the most efficient.
-  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email-at.png'
+  image: 'https://kinlane-images.s3.amazonaws.com/shared/bw-icons/bw-email-at.png'
   category: Email

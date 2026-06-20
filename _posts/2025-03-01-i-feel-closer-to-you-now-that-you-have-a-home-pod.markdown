@@ -8,7 +8,7 @@ tags:
   - Home
   - Immersion
   - Work
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-glass-ball-downtown.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-glass-ball-downtown.jpg
 ---
 I am so much happier now that you have your own home pod. I feel like we have experienced more together since you’ve had your home pod than even when we were kids together. Gaming quests and evening entertainment are much more meaningful with you there. Once you get the hang of being there for more than four hours we’ll begin talking about getting you working as part of my new contract--then we’ll get even more time together! Usually the acclimation phase for dry is three months, with another six more to acclimate to the wet phase. If all goes well we should be working together by the New Year!
 

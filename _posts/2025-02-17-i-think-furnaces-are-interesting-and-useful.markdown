@@ -8,7 +8,7 @@ tags:
   - Technology
   - Holocaust
   - Internment Camps
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/eugenics-memorial-to-the-jews-in-berlin-2.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/eugenics-memorial-to-the-jews-in-berlin-2.jpg
 ---
 I don’t know why you have to be such a downer, furnaces are my expertise. It is what I am studying at university to understand and have worked on for my whole career. I am one of just a handful of experts that understand the leading types of furnaces created, fuels used to operate them, as well as the automation that keeps the turning on and off, as well as at the right temperature. You telling me that I shouldn’t be doing my life’s work is just narrow minded and would end my career as I know it today. Why would you do that to me?
 

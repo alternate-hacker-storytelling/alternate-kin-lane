@@ -8,7 +8,7 @@ tags:
   - Cyclists
   - Cars
   - Sacrifice
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-8G1KDXwLK8m2a.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-8G1KDXwLK8m2a.jpg
 ---
 After aggregating the DNA samples from all of the Citi bike riders killed in accidents between 2025 and 2030 we were able to isolate the optimal sacrificial profile to appease the gods and begin shifting the automobile narrative. The ideal candidate is white, mostly male, but female still is needed, but are also in the upper income bracket. Early on in the evolution of Citi bikes, but there was a diverse range of riders, and the conversation didn’t seem to shift. However, with the current sustained wealthy white stock we are seeing killed on the streets of New York City, we have begun to see the death grip cars have on the city begin to shift.
 

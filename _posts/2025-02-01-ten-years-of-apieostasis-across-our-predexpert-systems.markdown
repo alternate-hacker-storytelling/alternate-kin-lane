@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - Predictive
   - Experts
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-bletchly-bombay.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-bletchly-bombay.jpg
 ---
 Our predexpert systems has 1.3 million nodes, and covers every topic known to man. As you know the statistical analysis portion of the system is now down to 30% of the operating system, and about 70% of the energy usage, with the 1.3 million experts nodes down to 30% power usage, but makes up the bulk of system processing. Of course everything coming from the expert layers is refined, filtered, and evaluated by the predictive, ensuring there is no leakage and everything is accounted for. 
 

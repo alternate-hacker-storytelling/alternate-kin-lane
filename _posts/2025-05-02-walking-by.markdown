@@ -8,7 +8,7 @@ tags:
   - Ear Buds
   - Connections
   - Tethered
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-people-walking-down-street.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-people-walking-down-street.jpg
 ---
 **SMS Naomi:** I am fine Mom. Just got the sads cause I am so lonely. I just wish I could meet a guy. I love you. Gotta go.
 

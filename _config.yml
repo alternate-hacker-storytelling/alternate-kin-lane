@@ -12,7 +12,7 @@ permalink: /:categories/:year/:month/:day/:title/
 url:                "http://alternate.kinlane.com"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-alternate.png
+logo:               https://kinlane-images.s3.amazonaws.com/kinlane/kin-alternate.png
 
 navbar:
     sticky:         true
@@ -22,14 +22,14 @@ navbar:
 author:
     name:           Kin Lane
     title:          Chief Evangelist
-    avatar:         https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png
+    avatar:         https://kinlane-images.s3.amazonaws.com/shared/kin-lane-cartoon-questioning.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
     kin:
       name:         Kin Lane
       title:        API Evangelist
-      avatar:       https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png
+      avatar:       https://kinlane-images.s3.amazonaws.com/shared/kin-lane-cartoon-questioning.png
       email:       'info@apievangelist.com'
       affiliation: 'Human Being'
       github:      'kinlane'

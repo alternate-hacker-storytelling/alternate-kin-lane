@@ -9,7 +9,7 @@ tags:
   - Disaster
   - Control
   - Elections
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/john-wayne-the-searchers-old-barn-in-hills.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/john-wayne-the-searchers-old-barn-in-hills.jpg
 ---
 The prepper disk has a 1000 day sustainment software. The localized storage and server appliance can go in any shelter, providing books, survival info, wikipedia, entertainment, but also a daily guidance via a home page that keeps targeted parties on task and focused for up to 1000 days. The goal is to provide them with everything they need to feel like they are doing something, even when the supplies started to get short and we are reaching the past the usual 750 day limitation.
 

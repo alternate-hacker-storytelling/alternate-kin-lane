@@ -8,7 +8,7 @@ tags:
   - Agents
   - AI
   - Artificial Intelligence
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-kin-chesapeake.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-kin-chesapeake.jpg
 ---
 Most things marketed today appeal to your fear and anxiety, and reveal what they are after in their names. Take for example artificial intelligence agents. These friendly and useful digital automations are being positioned as helpful, useful, and there to be your concierge and representative in a digital age. When their real intent is right there in their name, tricking you into giving up your secrets, desires, and agency that you have over your own life, giving it over to a platform. You are enabling agents to act on your behalf, but you are actually freely giving up any agency you have, teaching them how to do what matters to you the most in your world.
 

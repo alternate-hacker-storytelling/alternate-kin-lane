@@ -8,7 +8,7 @@ tags:
   - Robots
   - Automation
   - Home
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-craftmen-home.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-craftmen-home.jpg
 ---
 My sentinel fleet of home bots are the best! I love them so much I even upgraded to the professional version so that I could take advantage of them in my garage and home office. I just feel more empowered with them. I recommend starting with two, instead of just one, because you will be more productive and they begin to work together. It definitely costs more right out of the gate, but you will be much happier than you would within a single sentinel--if you can afford more, do it!
 

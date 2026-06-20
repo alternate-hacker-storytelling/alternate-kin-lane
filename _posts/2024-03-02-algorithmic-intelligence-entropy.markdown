@@ -7,7 +7,7 @@ tags:
   - Entropy
   - Artificial Intelligence
   - AI
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-looking-toward-sky.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-looking-toward-sky.jpeg
 ---
 Intelligence is the ability to acquire and apply knowledge and skills, with artificial intelligence being the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. Where algorithmic is something expressed as or using an algorithm or computational procedure, and entropy being a lack of order or predictability; gradual decline into disorder. Bringing us to an intersection I see as algorithmic intelligence entropy, which I feel best describes the intersection humanity is at right now when it comes to the collision of humans and artificial intelligence.
 

@@ -7,7 +7,7 @@ tags:
   - Time Travel
   - Time
   - Countries
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/california-travel-by-train-oakland-clock.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/california-travel-by-train-oakland-clock.jpeg
 ---
 To answer your questions. We offer only 4 hour excursions to known locations. We have a whole team of excursion planners who travel to different times via different places to understand the viability, safety, and repeatability of each journey. You will always have a tour guide with you to help ensure you have a good time and make it back safely. We have never lost a customer, but we have had 5 brave excursion planners not return, and one tour guide had a heart attack. But after 25 years of operating in over 300 countries, we think our safety record speaks for itself.
 

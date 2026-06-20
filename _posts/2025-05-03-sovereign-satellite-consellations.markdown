@@ -9,7 +9,7 @@ tags:
   - Sovereign
   - Traffic
   - Networks
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/copper-circuit-cell-tower-close.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/copper-circuit-cell-tower-close.jpeg
 ---
 All of the Internet for each country is now a constellation of sovereign satellites. While there were outliers for a number of years, and there were struggles between countries for a couple of decades, most of the volatile activity has settled down. If are in a country, you will connect to that countries sovereign network, there are no exceptions, and loading the web or mobile applications from other countries is handled via closely monitored and negotiated packet trade agreements.
 

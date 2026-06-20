@@ -7,7 +7,7 @@ tags:
   - Mission
   - Solider
   - Addiction
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/good-year-home-merchandise-hallway-mirrors-hotel.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/good-year-home-merchandise-hallway-mirrors-hotel.jpg
 ---
 I was still tired and feeling awkward being back home. The last mission was a lot. It is like waking up after an intense dream. I am happy to be back amongst family and friends, but the first couple of days and even weeks, I prefer to just sit on the porch. It was just a coincidence that the annual awards ceremony was happening this evening, and I felt obligated to head back up the hill to the hotel and theater to pay my respects to those being honored.
 

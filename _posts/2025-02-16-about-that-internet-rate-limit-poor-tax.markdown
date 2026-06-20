@@ -8,7 +8,7 @@ tags:
   - Internet
   - Siloes
   - Separation
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/purple-circuit-cell-tower-close-2.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/purple-circuit-cell-tower-close-2.jpeg
 ---
 It is simple. In the age of universal Internet, your download and upload speeds are determined by your income demographic, credit, and social score. It isn’t designed to penalize poor people but is based upon how much you contribute to the actual economy. The more you contribute, the more money you make, and the faster your Internet speeds are. It is the most meritocratic approach possible and the more productive you are the faster your Internet becomes, and in turn the more productive you will be. Obviously there are physical workplace exceptions to the rule, but when it comes to residential Internet speeds, this is how rate limits are imposed at the home pod level.
 

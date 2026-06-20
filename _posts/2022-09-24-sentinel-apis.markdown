@@ -5,7 +5,7 @@ title: 'Sentinel APIs'
 date: 2022-09-24T09:00:00.000Z
 tags:
   - Alternate Kin Lane
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-alan-turing-side.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-alan-turing-side.jpg
 ---
 Like most Internet technologies, APIs began as something intended to help augment us humans, but over time they became something that changed, altered, and forever doomed us as human beings through a million digital cuts to our uniquely human soul. Originally known as application programming interfaces back at the beginning of the century, the technical description was shortened to simply API, but along the way APIs were weaponized to not just augment us, but consume us, and reduce every aspect of our existence to a transaction. This weaponization of APIs has been called by many researchers as sentinelization of APIs, turning what used to be common business workflows and automation into an assault on humanity that has never been witnessed before.
 

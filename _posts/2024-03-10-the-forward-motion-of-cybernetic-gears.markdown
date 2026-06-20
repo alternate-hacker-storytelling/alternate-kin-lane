@@ -7,7 +7,7 @@ tags:
   - Cybernetic
   - Velocity
   - API
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-fixing-satellite-2.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-fixing-satellite-2.jpeg
 ---
 We personally make thousands of APIs calls each day. Our day is shaped by APIs, and it is dangerous to think otherwise. Despite Shannon’s original vision of communication being the same across all channels—in our view every API transaction has different emotional connections and societal value. 
 

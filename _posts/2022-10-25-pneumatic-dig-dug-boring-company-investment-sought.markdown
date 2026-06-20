@@ -10,7 +10,7 @@ tags:
   - Delivery
   - Packages
   - Warehouses
-image: https://s3.amazonaws.com/kinlane-productions2/algorotoscope-master/bf-skinner-underground-subway_36342747010_o.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-underground-subway_36342747010_o.jpg
 ---
 I am looking for 150 million dollars from you to get this thing off the ground. Think Elon Musk’s Boring company, but instead of digging underground tubes for human transport, we are looking to bore smaller tunnels underneath metro areas to install a robust pneumatic tube system. We are looking to be the last mile package delivery for the metro areas. We have warehouses on the outskirts of the top 25 largest cities, and we just need to install the last mile of pneumatic tubes for package distribution to our downtown retail locations. We just need your money to kick things off, get building, and we’ll bring in other investment along the way. 
 

@@ -10,7 +10,7 @@ tags:
   - Building
   - Scanning
   - Compliance
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-metlife-bulding-siide.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/american-dream-fundamental-metlife-bulding-siide.jpeg
 ---
 ### Building Key FOB Logs
 

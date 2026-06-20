@@ -8,7 +8,7 @@ tags:
   - Artificial Intelligence
   - ChatGTP
   - Labor
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/green-circuit-face-eyes-shut-statue.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/green-circuit-face-eyes-shut-statue.jpg
 ---
 You are lucky that ChatGPT even knows you are! When you ask who I am it doesn’t know, and I am unable to even get a job as good as yours. So quit your whining. You know that the process to correct ChatGPT’s description of you will take months, if not years, or maybe never. You are just better off performing as it expects to keep you within view of your business leadership. You will have better results if you just play the game and don’t try to challenge things.
 

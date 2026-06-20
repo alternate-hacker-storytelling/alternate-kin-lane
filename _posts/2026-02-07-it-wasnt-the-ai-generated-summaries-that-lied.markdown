@@ -8,7 +8,7 @@ tags:
   - Videos
   - Summaries
   - Truth
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/american-dream-fundamental-please-do-not-feed-the-pigeons.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/american-dream-fundamental-please-do-not-feed-the-pigeons.jpeg
 ---
 At first we didn’t understand why everyone had misinterpreted what Lyle Dunning had done. All the video conversation were right there in front of everyone. The videos weren’t tampered with, hidden, or obfuscated in any way. Lyle had shared every single video immediately after his conversations with investors. As he said in his deposition, he was straightforward and honest about what he was doing with the investors from day one.
 

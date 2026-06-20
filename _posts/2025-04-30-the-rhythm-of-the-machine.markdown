@@ -8,7 +8,7 @@ tags:
   - Creativity
   - Spontane
   - Government
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-two-smoke-stacks.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-two-smoke-stacks.jpg
 ---
 Creativity and spontaneity is dangerous and will destroy all of our work towards maximum efficiency. Any signs of employees who show creativity, bravery, or leadership must immediately be dealt with, ensuring that all workers are properly following the rhythm of the machine. Human labor are engineered to work within the machine and produce at the velocity we define, with the efficiency required to dominate completely within our industry.
 

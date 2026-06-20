@@ -10,7 +10,7 @@ tags:
   - Linens
   - Patterns
   - Theft
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/america-under-socialism-loom.jpeg
+image: https://kinlane-images.s3.amazonaws.com/shared/america-under-socialism-loom.jpeg
 ---
 My family has scratched out a living using that design for four generations. We had blanket versions, drapes, linens, and other variations. I never gave our family design to them, they stole it from me. They tricked me into showing them how to do it and promised to help me save time and make more money. I thought they were there to help me refine our process and technique, not steal our life's work.
 

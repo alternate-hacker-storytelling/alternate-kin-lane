@@ -8,7 +8,7 @@ tags:
   - Automation
   - Men
   - Enforcement
-image: https://kinlane-productions2.s3.amazonaws.com/algorotoscope-master/bf-skinner-white-house-kin.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/bf-skinner-white-house-kin.jpg
 ---
 Our son began receiving agent training when he got his first iPad at the age of 3. We bought in early, and as we watch him leave the university system and join the workforce, we are confident that this was money well spent. Our son Ian doesn’t do any unnecesary tasks that are beneath him. If he doesn’t like doing something he automates it. This has instilled in him a level of unmatched confidence that will help him stand out as a corporate agent bringing efficiency and productivity to any place he visits or works-—bringing him the respect he deserves. Our son deserves nothing less. 
 
